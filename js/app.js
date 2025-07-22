@@ -107,4 +107,22 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+function agregarAlCarritoConColor(nombre, precio, idCantidad, stockDisponible, idColor) {
+  const cantidad = parseInt(document.getElementById(idCantidad).value);
+  const color = document.getElementById(idColor).value;
+
+  if (cantidad > stockDisponible) {
+    alert("No hay suficiente stock disponible.");
+    return;
+  }
+
+  const producto = {
+    nombre: `${nombre} - Color: ${color}`,
+    precio: precio,
+    cantidad: cantidad
+  };
+
+  carrito.push(producto);
+  actualizarCarrito();
+}
 
