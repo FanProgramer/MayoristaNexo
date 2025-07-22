@@ -4,17 +4,14 @@ body {
   margin: 0;
   padding: 20px;
 }
-
 header {
   text-align: center;
   margin-bottom: 20px;
 }
-
 header img {
   max-width: 200px;
   cursor: pointer;
 }
-
 #buscador {
   width: 100%;
   max-width: 400px;
@@ -23,15 +20,12 @@ header img {
   padding: 10px;
   font-size: 16px;
 }
-
 .contenedor {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  padding: 20px;
 }
-
 .producto {
   background-color: #fff;
   padding: 15px;
@@ -40,61 +34,39 @@ header img {
   width: 250px;
   text-align: center;
 }
-
 .producto img {
   width: 100%;
   height: auto;
   border-radius: 5px;
 }
-
 .btn {
+  margin-top: 10px;
+  padding: 8px 12px;
   background-color: #28a745;
   color: white;
-  padding: 8px 12px;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
-  margin-top: 10px;
 }
-
 .btn:hover {
   background-color: #218838;
 }
-
 .stock {
   font-weight: bold;
   color: #555;
 }
 
-/* Botón Ver Pedido */
-.ver-pedido-btn {
-  margin-top: 8px;
-  margin-left: 6px;
-  background-color: #007bff;
-  color: white;
-  padding: 6px 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 0.9em;
-}
-
-.ver-pedido-btn:hover {
-  background-color: #0056b3;
-}
-
-/* Modal pedido */
+/* Modal styles */
 #modalPedido {
   display: none;
   position: fixed;
   top: 0; left: 0;
   width: 100vw; height: 100vh;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.5);
   justify-content: center;
   align-items: center;
   z-index: 1000;
 }
-
 #modalPedido .contenidoModal {
   background: white;
   padding: 20px;
@@ -104,27 +76,19 @@ header img {
   max-height: 80vh;
   overflow-y: auto;
 }
-
-#modalPedido h2 {
-  margin-top: 0;
-}
-
 #modalPedido ul {
   list-style: none;
   padding: 0;
 }
-
 #modalPedido ul li {
   margin-bottom: 15px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
-
 #modalPedido ul li input[type="number"] {
   width: 50px;
   margin-left: 10px;
 }
-
 #modalPedido ul li button {
   margin-left: 10px;
   background-color: #dc3545;
@@ -134,8 +98,63 @@ header img {
   border-radius: 4px;
   cursor: pointer;
 }
-
 #modalPedido ul li button:hover {
   background-color: #c82333;
 }
+
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .producto {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #fff;
+      width: 250px;
+      text-align: center;
+    }
+
+    .producto img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .btn {
+      background-color: #28a745;
+      color: white;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background-color: #218838;
+    }
+
+    #modalPedido {
+      display: none; /* Oculto por defecto */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contenidoModal {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 500px;
+    }
 
