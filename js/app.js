@@ -13,14 +13,25 @@ function filtrarProductos() {
   });
 }
 
-function agregarAlCarrito(nombre, precio, cantidadId, stock) {
+// ✅ AGREGADO: ahora acepta ID de color opcional
+function agregarAlCarrito(nombre, precio, cantidadId, stock, colorId = null) {
   const cantidadInput = document.getElementById(cantidadId);
   let cantidad = parseInt(cantidadInput.value);
+  let color = "";
+
+  // Si hay selección de color
+  if (colorId) {
+    const colorSelect = document.getElementById(colorId);
+    if (colorSelect) {
+      color = colorSelect.value;
+    }
+  }
 
   if (isNaN(cantidad) || cantidad < 1) {
     alert("Por favor, ingresa una cantidad válida.");
     return;
   }
+
   if (cantidad > stock) {
     alert(`No hay suficiente stock. Solo quedan ${stock} unidades disponibles.`);
     cantidadInput.value = stock;
@@ -28,7 +39,11 @@ function agregarAlCarrito(nombre, precio, cantidadId, stock) {
     return;
   }
 
-  const productoExistente = carrito.find((item) => item.nombre === nombre);
+  // Busca el producto exacto, con color incluido si existe
+  const productoExistente = carrito.find(
+    (item) => item.nombre === nombre && item.color === color
+  );
+
   if (productoExistente) {
     const nuevaCantidad = productoExistente.cantidad + cantidad;
     if (nuevaCantidad > stock) {
@@ -37,10 +52,10 @@ function agregarAlCarrito(nombre, precio, cantidadId, stock) {
     }
     productoExistente.cantidad = nuevaCantidad;
   } else {
-    carrito.push({ nombre, precio, cantidad });
+    carrito.push({ nombre, precio, cantidad, color });
   }
 
-  alert(`${cantidad} x ${nombre} agregado al carrito.`);
+  alert(`${cantidad} x ${nombre}${color ? " - Color: " + color : ""} agregado al carrito.`);
 }
 
 function mostrarPedido() {
@@ -49,14 +64,17 @@ function mostrarPedido() {
   const totalSpan = document.getElementById("totalPedido");
   lista.innerHTML = "";
   let total = 0;
+
   carrito.forEach((item, index) => {
     const subtotal = item.precio * item.cantidad;
     total += subtotal;
     const li = document.createElement("li");
-    li.innerHTML = `<b>${item.nombre}</b> — Cantidad: <input type="number" min="1" value="${item.cantidad}" onchange="modificarCantidad(${index}, this.value)"> — Precio unitario: $${item.precio} — Subtotal: $${subtotal}
+    li.innerHTML = `<b>${item.nombre}</b>${item.color ? " - Color: <strong>" + item.color + "</strong>" : ""} — Cantidad: 
+    <input type="number" min="1" value="${item.cantidad}" onchange="modificarCantidad(${index}, this.value)"> — Precio unitario: $${item.precio} — Subtotal: $${subtotal}
     <button onclick="eliminarProducto(${index})">Eliminar</button>`;
     lista.appendChild(li);
   });
+
   totalSpan.textContent = total;
   modal.style.display = "flex";
 }
@@ -87,13 +105,13 @@ function enviarPorWhatsapp() {
   let total = 0;
 
   carrito.forEach((item) => {
-    mensaje += `${item.cantidad} x ${item.nombre} - $${item.precio * item.cantidad}%0A`;
+    mensaje += `${item.cantidad} x ${item.nombre}${item.color ? " - Color: " + item.color : ""} - $${item.precio * item.cantidad}%0A`;
     total += item.precio * item.cantidad;
   });
 
   mensaje += `%0ATotal: $${total}`;
 
-  const numero = "5491128980818"; // Poner tu número acá (con código país, sin + ni espacios)
+  const numero = "5491128980818"; // Tu número
   const url = `https://wa.me/${numero}?text=${mensaje}`;
   window.open(url, "_blank");
 }
@@ -101,28 +119,8 @@ function enviarPorWhatsapp() {
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll('.ver-pedido-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      mostrarPedido(); // 👉 Esta función abre el modal con el detalle del pedido
+      mostrarPedido();
     });
   });
 });
-
-
-function agregarAlCarritoConColor(nombre, precio, idCantidad, stockDisponible, idColor) {
-  const cantidad = parseInt(document.getElementById(idCantidad).value);
-  const color = document.getElementById(idColor).value;
-
-  if (cantidad > stockDisponible) {
-    alert("No hay suficiente stock disponible.");
-    return;
-  }
-
-  const producto = {
-    nombre: `${nombre} - Color: ${color}`,
-    precio: precio,
-    cantidad: cantidad
-  };
-
-  carrito.push(producto);
-  actualizarCarrito();
-}
 
