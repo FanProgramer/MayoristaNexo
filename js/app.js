@@ -98,10 +98,13 @@ function enviarPorWhatsapp() {
   window.open(url, "_blank");
 }
 
-document.querySelectorAll('.ver-pedido-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    mostrarPedido(); // muestra el modal
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('.ver-pedido-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      mostrarPedido(); // 👉 Esta función abre el modal con el detalle del pedido
+    });
   });
 });
+
 
 
