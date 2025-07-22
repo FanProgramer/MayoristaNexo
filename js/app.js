@@ -97,3 +97,9 @@ function enviarPorWhatsapp() {
   const url = `https://wa.me/${numero}?text=${mensaje}`;
   window.open(url, "_blank");
 }
+
+document.querySelectorAll('.ver-pedido-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.getElementById('carrito').scrollIntoView({ behavior: 'smooth' });
+  });
+});
