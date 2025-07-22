@@ -100,7 +100,8 @@ function enviarPorWhatsapp() {
 
 document.querySelectorAll('.ver-pedido-btn').forEach(btn => {
   btn.addEventListener('click', () => {
-    document.getElementById('modalPedido').scrollIntoView({ behavior: 'smooth' });
+    mostrarPedido(); // muestra el modal
   });
 });
+
 
