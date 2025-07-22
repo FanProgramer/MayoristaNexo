@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Mayorista con Pedido Editable</title>
-<link rel="stylesheet" href="css/style.css" />
+</style>
 </head>
 <body>
 
@@ -15,7 +9,8 @@
 <input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarProductos()" />
 
 <div class="contenedor" id="lista-productos">
- <div class="producto" data-stock="5">
+
+  <div class="producto" data-stock="5">
     <img src="img/20WIPHOB.jpg" alt="Cable Iphone" />
     <h2>Cargadores Iphone</h2>
     <p>35W TC y cable lightning a TC con pata</p>
@@ -25,23 +20,19 @@
     <input type="number" id="cantidad1" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Cable Iphone 20WIPHOB', 5732, 'cantidad1', 100)">Agregar al carrito</button>
   </div>
-  </div>
 
-<div class="contenedor" id="lista-productos">
- <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5">
     <img src="IMG/HDMIDISPLAY.jpg" alt="Adaptadores" />
     <h2>Adaptadores</h2>
-    <p>Adaptador HDMI a DisplayPort </p>
+    <p>Adaptador HDMI a DisplayPort</p>
     <p>Precio: $4,080</p>
     <p>Stock disponible: <span class="stock">100</span></p>
     Cantidad:
     <input type="number" id="cantidad2" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Adaptador HDMI/Display HDMIDISPLAY', 4080, 'cantidad2', 100)">Agregar al carrito</button>
   </div>
-  </div>
-  
-<div class="contenedor" id="lista-productos">
- <div class="producto" data-stock="5">
+
+  <div class="producto" data-stock="5">
     <img src="IMG/DL-9215.jpg" alt="Afeitadora DL-9215" />
     <h2>Afeitadora Daling</h2>
     <p>: Cortadora de cabello y p </p>
@@ -51,12 +42,8 @@
     <input type="number" id="cantidad3" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Afeitadora Daling DL-9215', 20120, 'cantidad3', 100)">Agregar al carrito</button>
   </div>
-  </div>
 
-
-
-<div class="contenedor" id="lista-productos">
- <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5">
     <img src="IMG/DL-9235.jpg" alt="Afeitadora DL-9235" />
     <h2>Afeitadora Daling</h2>
     <p>: Cortadora de cabello y p </p>
@@ -66,12 +53,8 @@
     <input type="number" id="cantidad4" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Afeitadora Daling DL-9235', 15520, 'cantidad4', 100)">Agregar al carrito</button>
   </div>
-  </div>
 
-
-
-<div class="contenedor" id="lista-productos">
- <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5">
     <img src="IMG/RE2301.jpg" alt="Afeitadora Ogaan" />
     <h2>Afeitadora Ogaan</h2>
     <p>: Cortadora de cabello y p </p>
@@ -81,11 +64,8 @@
     <input type="number" id="cantidad5" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Afeitadora Ogaan RE2301', 14375, 'cantidad5', 100)">Agregar al carrito</button>
   </div>
-  </div>
 
-
-  <div class="contenedor" id="lista-productos">
-   <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5">
     <img src="img/AIRPODS2.jpg" alt="Auricular Airpods 2" />
     <h2>Auricular Airpods 2° gen</h2>
     <p>Auricular inalambrico AIRPODS2</p>
@@ -95,11 +75,8 @@
     <input type="number" id="cantidad6" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Auricular inalambrico AIRPODS2', 18900, 'cantidad6', 100)">Agregar al carrito</button>
   </div>
-    </div>
 
-
-  <div class="contenedor" id="lista-productos">
-   <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5">
     <img src="img/M-20C.jpg" alt="Cargador TC M-20C" />
     <h2>Aitech 2,0 con un puerto USB</h2>
     <p>Cargador TC M-20C</p>
@@ -108,12 +85,9 @@
     Cantidad:
     <input type="number" id="cantidad7" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Cargador TC M-20C', 3000, 'cantidad7', 100)">Agregar al carrito</button>
-   </div>
-    </div>
-  
+  </div>
 
-  <div class="contenedor" id="lista-productos">
-   <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5">
     <img src="img/AMAZON.jpg" alt="Convertidor Amazon Stick" />
     <h2>AMAZON TV STICK</h2>
     <p>Convertidor Smart Amazon</p>
@@ -122,18 +96,14 @@
     Cantidad:
     <input type="number" id="cantidad8" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('AMAZON TV STICK', 83320, 'cantidad8', 100)">Agregar al carrito</button>
-   </div>
-    </div>
   </div>
-    
-    
-  
+
+</div>
 
 <div style="text-align: center; margin-top: 20px;">
   <button class="btn" onclick="mostrarPedido()">Ver pedido</button>
   <button class="btn" onclick="enviarPorWhatsapp()">Enviar pedido por WhatsApp</button>
 </div>
-  
 
 <!-- Modal pedido -->
 <div id="modalPedido">
