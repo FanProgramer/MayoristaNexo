@@ -3,8 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mayorista NexoTech</title>
-  
+  <title>Mayorista con Pedido Editable</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Puedes mover esto a style.css si preferís */
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .producto {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #fff;
+      width: 250px;
+      text-align: center;
+    }
+
+    .producto img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .btn {
+      background-color: #28a745;
+      color: white;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background-color: #218838;
+    }
+
+    #modalPedido {
+      display: none; /* Oculto por defecto */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contenidoModal {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 500px;
+    }
+  </style>
 </head>
 <body>
 
@@ -25,7 +84,6 @@
     Cantidad:
     <input type="number" id="cantidad1" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Cable Iphone 20WIPHOB', 5732, 'cantidad1', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
   <div class="producto" data-stock="5">
@@ -37,7 +95,6 @@
     Cantidad:
     <input type="number" id="cantidad2" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Adaptador HDMI/Display HDMIDISPLAY', 4080, 'cantidad2', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
   <div class="producto" data-stock="5">
@@ -49,7 +106,6 @@
     Cantidad:
     <input type="number" id="cantidad3" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Afeitadora Daling DL-9215', 20120, 'cantidad3', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
   <div class="producto" data-stock="5">
@@ -61,7 +117,6 @@
     Cantidad:
     <input type="number" id="cantidad4" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Afeitadora Daling DL-9235', 15520, 'cantidad4', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
   <div class="producto" data-stock="5">
@@ -73,7 +128,6 @@
     Cantidad:
     <input type="number" id="cantidad5" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Afeitadora Ogaan RE2301', 14375, 'cantidad5', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
   <div class="producto" data-stock="5">
@@ -85,7 +139,6 @@
     Cantidad:
     <input type="number" id="cantidad6" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Auricular inalambrico AIRPODS2', 18900, 'cantidad6', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
   <div class="producto" data-stock="5">
@@ -97,7 +150,6 @@
     Cantidad:
     <input type="number" id="cantidad7" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('Cargador TC M-20C', 3000, 'cantidad7', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
   <div class="producto" data-stock="5">
@@ -109,7 +161,6 @@
     Cantidad:
     <input type="number" id="cantidad8" min="1" max="5" value="1" style="width: 60px" />
     <button class="btn" onclick="agregarAlCarrito('AMAZON TV STICK', 83320, 'cantidad8', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
 </div>
@@ -133,4 +184,5 @@
 <script src="js/app.js"></script>
 </body>
 </html>
+
 
