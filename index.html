@@ -601,7 +601,7 @@
   </div>
 </div>
 
-// <div id="paginacion"></div>
+
   
 <script>
   // Carrusel simple para todos los productos
@@ -617,42 +617,6 @@
   });
 </script>
 
-/* <script>
-  const productosPorPagina = 30;
-  let paginaActual = 1;
-
-  function mostrarProductos(pagina) {
-    const todosLosProductos = document.querySelectorAll('.producto');
-    const totalPaginas = Math.ceil(todosLosProductos.length / productosPorPagina);
-
-    todosLosProductos.forEach((producto, index) => {
-      producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
-    });
-
-    // Desplazar hasta el logo
-    const logo = document.getElementById('logo');
-    if (logo) {
-      logo.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-
-    // Botones de paginación
-    const paginacionDiv = document.getElementById('paginacion');
-    paginacionDiv.innerHTML = '';
-
-    for (let i = 1; i <= totalPaginas; i++) {
-      const boton = document.createElement('button');
-      boton.innerText = i;
-      boton.classList.add('boton-pagina');
-      if (i === pagina) boton.classList.add('activo');
-      boton.onclick = () => mostrarProductos(i);
-      paginacionDiv.appendChild(boton);
-    }
-  }
-
-  window.onload = function() {
-    mostrarProductos(1);
-  };
-</script> */
 
 
   
