@@ -719,6 +719,13 @@
       const userRef = ref(db, `onlineUsers/${uid}`);
       set(userRef, true);
       onDisconnect(userRef).remove();
+      import { onValue, ref as dbRef } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
+
+const onlineUsersRef = dbRef(db, "onlineUsers");
+onValue(onlineUsersRef, (snapshot) => {
+  const count = snapshot.exists() ? Object.keys(snapshot.val()).length : 0;
+  document.getElementById("onlineCount").textContent = count;
+});
     }
   });
 </script>
