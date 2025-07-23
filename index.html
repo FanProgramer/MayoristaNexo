@@ -558,13 +558,16 @@
   function mostrarProductos(pagina) {
     const todosLosProductos = document.querySelectorAll('.producto');
     const totalPaginas = Math.ceil(todosLosProductos.length / productosPorPagina);
-    
+
     todosLosProductos.forEach((producto, index) => {
       producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
     });
 
-    // Hacer scroll al inicio del listado
-  document.getElementById('contenedor-productos').scrollIntoView({ behavior: 'smooth' });
+    // IMPORTANTE: Asegúrate de que este contenedor esté visible en pantalla
+    const contenedor = document.getElementById('contenedor-productos');
+    if (contenedor) {
+      contenedor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 
     // Botones de paginación
     const paginacionDiv = document.getElementById('paginacion');
@@ -580,12 +583,11 @@
     }
   }
 
-  // Mostrar la primera página al cargar
   window.onload = function() {
     mostrarProductos(1);
-    
   };
 </script>
+
 
   
 <script src="js/app.js"></script>
