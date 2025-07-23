@@ -565,9 +565,13 @@
 
     // IMPORTANTE: Asegúrate de que este contenedor esté visible en pantalla
     const contenedor = document.getElementById('contenedor-productos');
-    if (contenedor) {
-      contenedor.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+if (contenedor) {
+  const topOffset = contenedor.getBoundingClientRect().top + window.pageYOffset - 20; // Podés ajustar el -20
+  window.scrollTo({
+    top: topOffset,
+    behavior: 'smooth'
+  });
+}
 
     // Botones de paginación
     const paginacionDiv = document.getElementById('paginacion');
