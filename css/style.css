@@ -173,3 +173,25 @@ header img {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 200px; /* o el tamaño que desees */
+  height: auto;
+  overflow: hidden;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.carousel-image.active {
+  opacity: 1;
+  position: relative;
+}
+
