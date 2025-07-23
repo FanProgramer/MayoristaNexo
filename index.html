@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mayorista con Pedido Editable</title>
+  <title>Mayorista NexoTech</title>
   <link rel="stylesheet" href="css/style.css" />
   <style>
     /* Puedes mover esto a style.css si preferís */
@@ -534,6 +534,8 @@
     <button class="btn" onclick="enviarPorWhatsapp()">Confirmar y enviar pedido</button>
   </div>
 </div>
+
+<div id="paginacion"></div>
   
 <script>
   // Carrusel simple para todos los productos
@@ -549,6 +551,39 @@
   });
 </script>
 
+<script>
+  const productosPorPagina = 30;
+  let paginaActual = 1;
+
+  function mostrarProductos(pagina) {
+    const todosLosProductos = document.querySelectorAll('.producto');
+    const totalPaginas = Math.ceil(todosLosProductos.length / productosPorPagina);
+    
+    todosLosProductos.forEach((producto, index) => {
+      producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
+    });
+
+    // Botones de paginación
+    const paginacionDiv = document.getElementById('paginacion');
+    paginacionDiv.innerHTML = '';
+
+    for (let i = 1; i <= totalPaginas; i++) {
+      const boton = document.createElement('button');
+      boton.innerText = i;
+      boton.classList.add('boton-pagina');
+      if (i === pagina) boton.classList.add('activo');
+      boton.onclick = () => mostrarProductos(i);
+      paginacionDiv.appendChild(boton);
+    }
+  }
+
+  // Mostrar la primera página al cargar
+  window.onload = function() {
+    mostrarProductos(1);
+  };
+</script>
+
+  
 <script src="js/app.js"></script>
 </body>
 </html>
