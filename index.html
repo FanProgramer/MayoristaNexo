@@ -510,6 +510,20 @@
     <button class="btn" onclick="enviarPorWhatsapp()">Confirmar y enviar pedido</button>
   </div>
 </div>
+  
+<script>
+  // Carrusel simple para todos los productos
+  document.querySelectorAll('.carousel').forEach((carousel) => {
+    const images = carousel.querySelectorAll('.carousel-image');
+    let current = 0;
+
+    setInterval(() => {
+      images[current].classList.remove('active');
+      current = (current + 1) % images.length;
+      images[current].classList.add('active');
+    }, 5000); // 5 segundos
+  });
+</script>
 
 <script src="js/app.js"></script>
 </body>
