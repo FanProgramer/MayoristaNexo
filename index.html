@@ -687,35 +687,39 @@
 
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
-  import { getDatabase, ref, onDisconnect, onValue, push, remove, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
+  import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
+  import { getDatabase, ref, onDisconnect, set } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
 
+  // Configuración de Firebase
   const firebaseConfig = {
     apiKey: "AIzaSyCRW8nwRP-s8VgxurPtBUOiIvjqhK80rRs",
     authDomain: "contador-usuarios-24998.firebaseapp.com",
+    databaseURL: "https://contador-usuarios-24998-default-rtdb.firebaseio.com",
     projectId: "contador-usuarios-24998",
-    storageBucket: "contador-usuarios-24998.firebasestorage.app",
+    storageBucket: "contador-usuarios-24998.appspot.com",
     messagingSenderId: "192544535798",
     appId: "1:192544535798:web:1a30a552ee958274a828d7"
   };
 
   const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
   const db = getDatabase(app);
 
-  // Referencia a la lista de conexiones
-  const connectionsRef = ref(db, "connections");
+  signInAnonymously(auth)
+    .then(() => {
+      console.log("Sesión anónima iniciada");
+    })
+    .catch((error) => {
+      console.error("Error al autenticar:", error);
+    });
 
-  // Cada cliente nuevo se "pushea" a la lista
-  const connection = push(connectionsRef, {
-    connectedAt: serverTimestamp()
-  });
-
-  // Si se desconecta, se borra
-  onDisconnect(connection).remove();
-
-  // Mostrar cuántos están conectados
-  onValue(connectionsRef, (snapshot) => {
-    const contador = snapshot.size || snapshot.numChildren(); // numChildren para compatibilidad
-    document.getElementById("usuarios-en-linea").textContent = contador;
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      const uid = user.uid;
+      const userRef = ref(db, `onlineUsers/${uid}`);
+      set(userRef, true);
+      onDisconnect(userRef).remove();
+    }
   });
 </script>
   
