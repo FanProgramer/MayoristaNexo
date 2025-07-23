@@ -563,6 +563,9 @@
       producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
     });
 
+    // Hacer scroll al inicio del listado
+  document.getElementById('contenedor-productos').scrollIntoView({ behavior: 'smooth' });
+
     // Botones de paginación
     const paginacionDiv = document.getElementById('paginacion');
     paginacionDiv.innerHTML = '';
@@ -580,6 +583,7 @@
   // Mostrar la primera página al cargar
   window.onload = function() {
     mostrarProductos(1);
+    
   };
 </script>
 
