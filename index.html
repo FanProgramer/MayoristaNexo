@@ -452,14 +452,25 @@
   </div>
 
   <div class="producto" data-stock="5">
-    <img src="IMG/P9.jpg" alt="Auricular inalambrico P9" />
+    <img src="img/P9.jpg" alt="Auricular inalambrico P9" />
     <h2>Auricular inalambrico P9</h2>
-    <p>Auricular vincha inalá P9</p>
-    <p>Precio: $10,555</p>
+    <p>Auricular Inalambrico inalá P9</p>
+    <p>Precio: $10,500</p>
     <p>Stock disponible: <span class="stock">100</span></p>
+    
+    <!-- Selección de color -->
+  <label for="color29">Color:</label>
+  <select id="color29">
+    <option value="Blanco">Blanco</option>
+    <option value="Rosa">Rosa</option>
+    <option value="Celeste">Celeste</option>
+    <option value="Verde">Verde</option>
+  </select>
+    
+    <br>
     Cantidad:
     <input type="number" id="cantidad29" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular vincha inalá P9', 10555, 'cantidad29', 100)">Agregar al carrito</button>
+    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico inalá P9', 10500, 'cantidad29', 100, 'color29')">Agregar al carrito</button>
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
   
