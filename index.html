@@ -563,15 +563,11 @@
       producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
     });
 
-    // IMPORTANTE: Asegúrate de que este contenedor esté visible en pantalla
-    const contenedor = document.getElementById('contenedor-productos');
-if (contenedor) {
-  const topOffset = contenedor.getBoundingClientRect().top + window.pageYOffset - 20; // Podés ajustar el -20
-  window.scrollTo({
-    top: topOffset,
-    behavior: 'smooth'
-  });
-}
+    // Desplazar hasta el logo
+    const logo = document.getElementById('logo');
+    if (logo) {
+      logo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 
     // Botones de paginación
     const paginacionDiv = document.getElementById('paginacion');
