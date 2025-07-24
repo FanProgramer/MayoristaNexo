@@ -1008,22 +1008,27 @@ fetch('productos.json')
 
 <script>
 fetch("productos.json")
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
     const contenedor = document.getElementById("productos");
-    data.forEach(producto => {
-      const html = `
+    data.forEach(prod => {
+      // Suponiendo que todas las imágenes son .jpg
+      const rutaImagen = `img/${prod.codigo}.jpg`;
+
+      contenedor.innerHTML += `
         <div class="producto">
-          <img src="${producto.imagen}" alt="${producto.codigo}" width="200">
-          <p><strong>Rubro:</strong> ${producto.rubro}</p>
-          <p><strong>Código:</strong> ${producto.codigo}</p>
-          <p><strong>Precio:</strong> ${producto.precio}</p>
+          <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'"/>
+          <p><strong>Rubro:</strong> ${prod.rubro}</p>
+          <p><strong>Código:</strong> ${prod.codigo}</p>
+          <p><strong>Precio:</strong> ${prod.precio}</p>
         </div>
       `;
-      contenedor.innerHTML += html;
     });
   })
-  .catch(error => console.error("Error cargando productos:", error));
+  .catch(err => {
+    console.error("Error al cargar productos:", err);
+  });
+
 </script>
 
   
