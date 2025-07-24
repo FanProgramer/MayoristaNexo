@@ -987,7 +987,8 @@ fetch("https://raw.githubusercontent.com/usuario/repositorio/main/productos.json
   <div id="productos"></div>
 
 <script>
-fetch("productos.json")
+fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/master/productos.json")
+
   .then(res => res.json())
   .then(data => {
     const contenedor = document.getElementById("productos");
