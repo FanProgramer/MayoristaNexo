@@ -72,14 +72,26 @@
   <p class="leyenda-compra-minima">🛍️ Compra mínima $250.000</p>
   <p>Usl: <span id="onlineCount">0</span></p>
 </header>
-  
+
+ <label for="filtroCategoria">Filtrar por categoría:</label>
+<select id="filtroCategoria" onchange="filtrarPorCategoria()">
+  <option value="todas">Todas</option>
+  <option value="Cargadores">Cargadores</option>
+  <option value="Adaptadores">Adaptadores</option>
+  <option value="Balanzas">Balanzas</option>
+  <option value="Balanzas">Auriculares</option>
+  <option value="Balanzas">Varios</option>
+  <option value="Balanzas">Cocina</option>
+  <!-- Agrega aquí más categorías según tus productos -->
+</select>
+ 
 <input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarProductos()" />
 
 <div class="contenedor" id="lista-productos">
 
   
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Cargadores">
     <img src="img/20WIPHOB.jpg" alt="Cable Iphone" />
     <h2>Cargadores Iphone</h2>
     <p>35W TC y cable lightning a TC con pata</p>
@@ -91,7 +103,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Adaptadores">
     <img src="IMG/HDMIDISPLAY.jpg" alt="Adaptadores" />
     <h2>Adaptadores</h2>
     <p>Adaptador HDMI a DisplayPort</p>
@@ -103,7 +115,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Afeitadoras">
     <img src="IMG/DL-9215.jpg" alt="Afeitadora DL-9215" />
     <h2>Afeitadora Daling</h2>
     <p>Cortadora de cabello y p </p>
@@ -115,7 +127,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Afeitadoras">
     <img src="IMG/DL-9235.jpg" alt="Afeitadora DL-9235" />
     <h2>Afeitadora Daling</h2>
     <p>Cortadora de cabello y p </p>
@@ -127,7 +139,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Afeitadoras">
     <img src="IMG/RE2301.jpg" alt="Afeitadora Ogaan" />
     <h2>Afeitadora Ogaan</h2>
     <p>Cortadora de cabello y p </p>
@@ -139,7 +151,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/AIRPODS2.jpg" alt="Auricular Airpods 2" />
     <h2>Auricular Airpods 2° gen</h2>
     <p>Auricular inalambrico AIRPODS2</p>
@@ -151,7 +163,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Cargadores">
     <img src="img/M-20C.jpg" alt="Cargador TC M-20C" />
     <h2>Aitech 2,0 con un puerto USB</h2>
     <p>Cargador TC M-20C</p>
@@ -163,7 +175,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="cocina">
     <img src="img/AD-C301A.jpg" alt="Anafe Doble de 2 hornillas" />
     <h2>Anafe Doble de 2 hornallas</h2>
     <p>Anafe Doble AD-C301A</p>
@@ -175,7 +187,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Accesorios">
     <img src="img/MJ-30.jpg" alt="Aro de 30cm con luz blanca y de colores + tripode" />
     <h2>Aro de 30cm con luz blanca y de colores + tripode</h2>
     <p>Aro de 30 CM MJ-30</p>
@@ -187,7 +199,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Cocina">
     <img src="img/HT-100A.jpg" alt="Anafe Simple" />
     <h2>Anafe Simple</h2>
     <p>Anafe 1 hornalla HT-100A</p>
@@ -199,7 +211,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Accesorios">
     <img src="img/AWI-200.jpg" alt="Antena Wifi 900Mbps. 2.0" />
     <h2>Antena Wifi 900Mbps. 2.0</h2>
     <p>Adaptador Wifi AWI-200</p>
@@ -212,7 +224,7 @@
   </div>
 
   <div class="producto" data-stock="5">
-    <img src="img/MD-16.jpg" alt="Aspiradora portatil" />
+    <img src="img/MD-16.jpg" alt="Accesorios" />
     <h2>Aspiradora portatil</h2>
     <p>Aspiradora portatil MD-16</p>
     <p>Precio: $24,480</p>
@@ -223,7 +235,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Parlantes">
     <img src="img/ASPARL.jpg" alt="Astronauta con Parlante" />
     <h2>Astronauta con Parlante</h2>
     <p>Parlante Portatil Astronauta ASPARL</p>
@@ -235,7 +247,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/I12.jpg" alt="Auriculares bluetooh" />
     <h2>Auriculares bluetooh</h2>
     <p>Auricular Inalambrico i12</p>
@@ -262,7 +274,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/AI-19.jpg" alt="Auricular Aitech" />
     <h2>Auricular Aitech</h2>
     <p>Auricular Vincha con Cable AI-19</p>
@@ -274,7 +286,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/Akg32.jpg" alt="Auricular AKG manos libres" />
     <h2>Auricular AKG manos libres</h2>
     <p>Auricular AKG SAMSUNG AKG32</p>
@@ -286,7 +298,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/AKGTC.jpg" alt="Auricular AKG Type-C" />
     <h2>Auricular AKG Type-C</h2>
     <p>Auricular AKG SAMSUNG type-c AKGTC</p>
@@ -298,7 +310,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/MOD91.jpg" alt="Auricular Bluetooth" />
     <h2>Auricular Bluetooth</h2>
     <p>Auriculares vincha inalá MOD91</p>
@@ -310,7 +322,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/BOC32.jpg" alt="Auricular Boca manos libres" />
     <h2>Auricular Boca manos libres</h2>
     <p>Auriculares Boca BOC32</p>
@@ -322,7 +334,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/BUDS.jpg" alt="Auricular Buds+" />
     <h2>Auricular Buds+</h2>
     <p>Auricular Inalambrico BUDS</p>
@@ -334,7 +346,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/P47.jpg" alt="Auricular Inalambrico con manos libres y radio" />
     <h2>Auriculares Vincha Inalá</h2>
     <p>Auricular Inalambrico P47</p>
@@ -358,7 +370,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/P47M.jpg" alt="Auricular inalambrico con orejitas" />
     <h2>Auriculares Vincha Inalá</h2>
     <p>Auricular Inalambrico P47M</p>
@@ -382,7 +394,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/BUDS3.jpg" alt="Auricular Inalambrico BUDS3 LITE" />
     <h2>Auricular Inalambrico BUDS3 LITE</h2>
     <p>Auricular Inalambrico BUDS3</p>
@@ -394,7 +406,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/BUDS2PRO.jpg" alt="Auricular inalambrico Galaxy Buds Pro Samsung" />
     <h2>Auricular inalambrico Galaxy Buds Pro Samsung</h2>
     <p>Auricular Inalambrico BUDS2PRO</p>
@@ -406,7 +418,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/TUNE2691.jpg" alt="Auricular Inalambrico JBL Vincha" />
     <h2>Auricular Inalambrico JBL Vincha</h2>
     <p>Auricular Inalambrico JBL Tune-2691</p>
@@ -418,7 +430,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/TUNE760.jpg" alt="Auricular Inalambrico JBL Vincha" />
     <h2>Auricular Inalambrico JBL Vincha</h2>
     <p>Auricular Inalambrico JBL Tune-760</p>
@@ -430,7 +442,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/PM-TUNE760.jpg" alt="Auricular Inalambrico Mobile" />
     <h2>Auricular Inalambrico Mobile</h2>
     <p>Auricular Inalambrico PM-TUNE760</p>
@@ -442,7 +454,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/NM-LIVE.jpg" alt="Auricular Inalambrico Netmak" />
     <h2>Auricular Inalambrico Netmak</h2>
     <p>Auricular Inalambrico Netmak NM-LIVE</p>
@@ -454,7 +466,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="img/P9.jpg" alt="Auricular inalambrico P9" />
     <h2>Auricular inalambrico P9</h2>
     <p>Auricular Inalambrico inalá P9</p>
@@ -478,7 +490,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
   <!-- Carrusel de imágenes -->
   <div class="carousel">
     <img src="IMG/AH-806A-2.jpg" alt="Auricular infantil" class="carousel-image active" />
@@ -496,7 +508,7 @@
   <button class="ver-pedido-btn">🛒 Ver Pedido</button>
 </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/TWS-BT03.jpg" alt="Auricular JBL" />
     <h2>Auricular JBL</h2>
     <p>Auricular Inalambrico JBL TWS-BT03</p>
@@ -508,7 +520,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/WAVE300.jpg" alt="Auricular JBL WAVE300" />
     <h2>Auricular JBL</h2>
     <p>Auricular Inalambrico JBL WAVE300</p>
@@ -520,7 +532,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/FT8312.jpg" alt="Auricular para PC y PS4" />
     <h2>Auricular para PC y PS4</h2>
     <p>Auricular Gaming Fijstec FT8312 </p>
@@ -532,7 +544,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/NG-8620.jpg" alt="Auricular para PC y PS4 Noga" />
     <h2>Auricular para PC y PS4 Noga</h2>
     <p>Auricular Gaming Noga NG-8620</p>
@@ -544,7 +556,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/RISAM.jpg" alt="Auricular Samsung resorte" />
     <h2>Auricular Samsung resorte</h2>
     <p>Auricular Samung Resorte RISAM</p>
@@ -556,7 +568,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
   <!-- Carrusel de imágenes -->
   <div class="carousel">
     <img src="IMG/SPORT45-2.jpg" alt="Auricular Sport 2" class="carousel-image active" />
@@ -574,7 +586,7 @@
   <button class="ver-pedido-btn">🛒 Ver Pedido</button>
 </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/PROAIR.jpg" alt="Auricular Sport Samsung" />
     <h2>Auricular Sport Samsung</h2>
     <p>Auricular inalambrico Sport Samsung PROAIR</p>
@@ -586,7 +598,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/TUNEFLEX.jpg" alt="Auricular JBL" />
     <h2>Auricular JBL</h2>
     <p>Auricular Inalambrico JBL TUNEFLEX</p>
@@ -598,7 +610,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Auriculares">
     <img src="IMG/RISING.jpg" alt="Auricular PC y PS4 con adaptador de auricular GTC" />
     <h2>Auricular PC y PS4 con adaptador de auricular GTC</h2>
     <p>Auricular para Pc Gaming RISING</p>
@@ -610,7 +622,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Balanzas">
   <!-- Carrusel de imágenes -->
   <div class="carousel">
     <img src="IMG/CFN.jpg" alt="Balanza Comercial de 40Kg" class="carousel-image active" />
@@ -628,7 +640,7 @@
   <button class="ver-pedido-btn">🛒 Ver Pedido</button>
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Balanzas">
     <img src="IMG/MH-500.jpg" alt="Balanza de 500gr" />
     <h2>Balanza de 500gr</h2>
     <p>Balanza de 500gr MH-500</p>
@@ -640,7 +652,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Balanzas">
     <img src="IMG/SV-10.jpg" alt="Balanza de cocina 10Kg" />
     <h2>Balanza de Cocina 10Kg</h2>
     <p>Balanza de Cocina 10Kg SV-10</p>
@@ -652,7 +664,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Balanzas">
     <img src="IMG/AF24010.jpg" alt="Balanza personal con aplicación" />
     <h2>Balanzza personal con aplicación</h2>
     <p>Balanza personal con app hasta 180Kg AF24010</p>
@@ -664,7 +676,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Cargadores">
     <img src="IMG/BATPACK.jpg" alt="Cargador portatil power" />
     <h2>Cargador portátil power</h2>
     <p>Cargador poratil power BATPACK</p>
@@ -676,7 +688,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5">
+  <div class="producto" data-stock="5" data-categoria="Varios">
     <img src="IMG/LEDMAGIC.jpg" alt="Bola Boliche" />
     <h2>Bola Boliche</h2>
     <p>Bola Boliche LEDMAGIC fiesta</p>
@@ -689,8 +701,6 @@
   </div>
   
 </div>
-
-  <div id="paginacion"></div>
 
 <div style="text-align: center; margin-top: 20px;">
   <button class="btn" onclick="mostrarPedido()">Ver pedido</button>
@@ -774,42 +784,28 @@
       });
     }
   });
-  <script>
-  const productosPorPagina = 30;
+  function filtrarPorCategoria() {
+  const categoriaSeleccionada = document.getElementById('filtroCategoria').value.toLowerCase();
+  const productos = document.querySelectorAll('.producto');
+  const textoBusqueda = document.getElementById('buscador').value.toLowerCase();
 
-  // 👉 Obtener el número de página desde la URL
-  function obtenerPaginaActual() {
-    const params = new URLSearchParams(window.location.search);
-    return parseInt(params.get('pagina')) || 1;
-  }
+  productos.forEach(prod => {
+    const categoriaProducto = prod.getAttribute('data-categoria').toLowerCase();
+    const nombreProducto = prod.querySelector('h2').textContent.toLowerCase();
 
-  function mostrarProductos(pagina) {
-    const todosLosProductos = document.querySelectorAll('.producto');
-    const totalPaginas = Math.ceil(todosLosProductos.length / productosPorPagina);
+    // Mostrar solo si coincide con la categoría o "todas", y también con el texto del buscador
+    const coincideCategoria = (categoriaSeleccionada === 'todas') || (categoriaProducto === categoriaSeleccionada);
+    const coincideBusqueda = nombreProducto.includes(textoBusqueda);
 
-    todosLosProductos.forEach((producto, index) => {
-      producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
-    });
+    prod.style.display = (coincideCategoria && coincideBusqueda) ? 'block' : 'none';
+  });
+}
 
-    const paginacionDiv = document.getElementById('paginacion');
-    paginacionDiv.innerHTML = '';
+// Modifica también tu función del buscador para que llame a esta función combinada:
+function filtrarProductos() {
+  filtrarPorCategoria();
+}
 
-    for (let i = 1; i <= totalPaginas; i++) {
-      const link = document.createElement('a');
-      link.innerText = i;
-      link.href = `?pagina=${i}`;
-      link.classList.add('boton-pagina');
-      if (i === pagina) link.classList.add('activo');
-      paginacionDiv.appendChild(link);
-    }
-  }
-
-  // 👉 Ejecutar al cargar la página
-  window.onload = function() {
-    const pagina = obtenerPaginaActual();
-    mostrarProductos(pagina);
-  };
-</script>
 
 
   
