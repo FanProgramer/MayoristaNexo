@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contacto - Mayorista NexoTech</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script>
+    function enviarWhatsApp(event) {
+      event.preventDefault();
+      const nombre = document.getElementById('nombre').value;
+      const email = document.getElementById('email').value;
+      const mensaje = document.getElementById('mensaje').value;
+
+      const numero = "541128980818"; // Tu número de WhatsApp con código de país sin signos
+      const texto = `Hola, soy ${nombre}. Mi correo es ${email}. Quisiera hacer la siguiente consulta: ${mensaje}`;
+      const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
+      window.open(url, '_blank');
+    }
+  </script>
 </head>
 <body>
 
@@ -29,7 +42,7 @@
   </ul>
 
   <h2>Formulario de contacto</h2>
-  <form action="mailto:contacto@nexotech.com.ar" method="post" enctype="text/plain">
+  <form onsubmit="enviarWhatsApp(event)">
     <label for="nombre">Nombre:</label><br />
     <input type="text" id="nombre" name="nombre" required /><br /><br />
 
@@ -39,7 +52,7 @@
     <label for="mensaje">Mensaje:</label><br />
     <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br /><br />
 
-    <button type="submit" class="btn">Enviar</button>
+    <button type="submit" class="btn">Enviar por WhatsApp</button>
   </form>
 </main>
 
