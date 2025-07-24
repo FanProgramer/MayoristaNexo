@@ -765,27 +765,8 @@
     <button class="btn" onclick="agregarAlCarrito('Cabezal 65W TC MIXLEYE', 4300, 'cantidad51', 100)">Agregar al carrito</button>
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
-  
-</div>
 
-  <div id="paginacion"></div>
-
-<div style="text-align: center; margin-top: 20px;">
-  <button class="btn" onclick="mostrarPedido()">Ver pedido</button>
-  <button class="btn" onclick="enviarPorWhatsapp()">Enviar pedido por WhatsApp</button>
-</div>
-
-<!-- Modal pedido -->
-<div id="modalPedido">
-  <div class="contenidoModal">
-    <h2>Detalle del pedido</h2>
-    <ul id="listaDetallePedido"></ul>
-    <p>Total: $<span id="totalPedido">0</span></p>
-    <button class="btn" onclick="cerrarPedido()">Cerrar</button>
-    <button class="btn" onclick="enviarPorWhatsapp()">Confirmar y enviar pedido</button>
-  </div>
-
-<div class="producto" data-stock="5">
+  <div class="producto" data-stock="5">
     <img src="IMG/IB-586.jpg" alt="Cabezal 7,8A IBEK" />
     <h2>Cabezal 7,8A IBEK</h2>
     <p>Cabezal 7,8A IBEK IB-586</p>
@@ -821,7 +802,25 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
   
+</div>
+
+
+
+<div style="text-align: center; margin-top: 20px;">
+  <button class="btn" onclick="mostrarPedido()">Ver pedido</button>
+  <button class="btn" onclick="enviarPorWhatsapp()">Enviar pedido por WhatsApp</button>
+</div>
+
+<!-- Modal pedido -->
+<div id="modalPedido">
+  <div class="contenidoModal">
+    <h2>Detalle del pedido</h2>
+    <ul id="listaDetallePedido"></ul>
+    <p>Total: $<span id="totalPedido">0</span></p>
+    <button class="btn" onclick="cerrarPedido()">Cerrar</button>
+    <button class="btn" onclick="enviarPorWhatsapp()">Confirmar y enviar pedido</button>
   </div>
+
 <script>
   // Carrusel simple para todos los productos
   document.querySelectorAll('.carousel').forEach((carousel) => {
