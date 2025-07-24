@@ -1,12 +1,1 @@
-[
-  {
-    "nombre": "Auriculares Bluetooth",
-    "precio": "$3500",
-    "imagen": "https://via.placeholder.com/200x200.png?text=Auriculares"
-  },
-  {
-    "nombre": "Cargador Rápido",
-    "precio": "$2500",
-    "imagen": "https://via.placeholder.com/200x200.png?text=Cargador"
-  }
-]
+[]
