@@ -783,33 +783,33 @@
   let paginaActual = 1;
 
   function mostrarProductos(pagina) {
-    const todosLosProductos = document.querySelectorAll('.producto');
-    const totalPaginas = Math.ceil(todosLosProductos.length / productosPorPagina);
+  const todosLosProductos = document.querySelectorAll('.producto');
+  const totalPaginas = Math.ceil(todosLosProductos.length / productosPorPagina);
 
-    todosLosProductos.forEach((producto, index) => {
-      producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
-    });
+  todosLosProductos.forEach((producto, index) => {
+    producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
+  });
 
-    // Scroll automático al inicio de la página
-    document.getElementById("scroll-top").scrollIntoView({
-  behavior: "smooth"
-});
+  // 🔁 Forzar scroll visual al principio de la página
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 
+  // Actualizar los botones de paginación
+  const paginacionDiv = document.getElementById('paginacion');
+  paginacionDiv.innerHTML = '';
 
-
-    // Botones de paginación
-    const paginacionDiv = document.getElementById('paginacion');
-    paginacionDiv.innerHTML = '';
-
-    for (let i = 1; i <= totalPaginas; i++) {
-      const boton = document.createElement('button');
-      boton.innerText = i;
-      boton.classList.add('boton-pagina');
-      if (i === pagina) boton.classList.add('activo');
-      boton.onclick = () => mostrarProductos(i);
-      paginacionDiv.appendChild(boton);
-    }
+  for (let i = 1; i <= totalPaginas; i++) {
+    const boton = document.createElement('button');
+    boton.innerText = i;
+    boton.classList.add('boton-pagina');
+    if (i === pagina) boton.classList.add('activo');
+    boton.onclick = () => mostrarProductos(i);
+    paginacionDiv.appendChild(boton);
   }
+}
+
 
   window.onload = function() {
     mostrarProductos(1);
