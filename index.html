@@ -66,18 +66,6 @@
   </style>
 </head>
 <body>
-
-<label for="filtroCategoria">Filtrar por categoría:</label>
-<select id="filtroCategoria" onchange="filtrarPorCategoria()">
-  <option value="todas">Todas</option>
-  <option value="Cargadores">Cargadores</option>
-  <option value="Adaptadores">Adaptadores</option>
-  <option value="Balanzas">Balanzas</option>
-  <option value="Balanzas">Auriculares</option>
-  <option value="Balanzas">Varios</option>
-  <option value="Balanzas">Cocina</option>
-  <!-- Agrega aquí más categorías según tus productos -->
-</select>
  
 <input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarProductos()" />
 
@@ -783,32 +771,6 @@
     }
   });
   
-  <script>
-  const filtroCategoria = document.getElementById('filtroCategoria');
-  const buscador = document.getElementById('buscador');
-  const productos = document.querySelectorAll('.producto');
-
-  function filtrar() {
-    const categoriaSeleccionada = filtroCategoria.value.toLowerCase();
-    const textoBusqueda = buscador.value.toLowerCase();
-
-    productos.forEach(producto => {
-      const categoriaProducto = producto.getAttribute('data-categoria').toLowerCase();
-      const nombreProducto = producto.querySelector('h2').textContent.toLowerCase();
-
-      const coincideCategoria = (categoriaSeleccionada === 'todas') || (categoriaProducto === categoriaSeleccionada);
-      const coincideBusqueda = nombreProducto.includes(textoBusqueda);
-
-      producto.style.display = (coincideCategoria && coincideBusqueda) ? 'block' : 'none';
-    });
-  }
-
-  filtroCategoria.addEventListener('change', filtrar);
-  buscador.addEventListener('input', filtrar);
-
-  // Mostrar todos al cargar
-  filtrar();
-</script>
 
 
 
