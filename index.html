@@ -789,7 +789,8 @@
     });
 
     // Scroll automático al inicio de la página
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.documentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
 
     // Botones de paginación
     const paginacionDiv = document.getElementById('paginacion');
