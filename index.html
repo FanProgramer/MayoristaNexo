@@ -65,7 +65,7 @@
     }
   </style>
 </head>
-<body>
+<body id="inicio">
 
 <header>
   <a href="#top"><img src="img/logo.png" alt="Mi Logo" /></a>
@@ -789,7 +789,9 @@
     });
 
     // Scroll automático al inicio de la página
-    document.documentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.getElementById("inicio").scrollIntoView({
+  behavior: "smooth"
+});
 
 
     // Botones de paginación
