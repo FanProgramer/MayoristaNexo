@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 
-# Leer el HTML guardado manualmente
+# Leer el HTML descargado
 with open('catalogo_gamingcell.html', 'r', encoding='utf-8') as file:
     soup = BeautifulSoup(file, 'html.parser')
 
@@ -18,7 +18,14 @@ for prod in soup.select('.card'):
         precio_texto = precio_elem.text.strip()
         precio_num = float(re.sub(r'[^\d.]', '', precio_texto).replace('.', '').replace(',', '.'))
         precio_final = round(precio_num * 1.30)
-        imagen = img_elem['src']
+
+        imagen_src = img_elem['src'].strip()
+        if imagen_src.startswith('/'):
+            imagen = f"https://gamingcell.com.ar{imagen_src}"
+        elif imagen_src.startswith('http'):
+            imagen = imagen_src
+        else:
+            imagen = f"https://gamingcell.com.ar/{imagen_src}"
 
         productos.append({
             'nombre': nombre,
@@ -26,7 +33,8 @@ for prod in soup.select('.card'):
             'imagen': imagen
         })
 
+# Guardar los productos en un archivo JSON
 with open('productos.json', 'w', encoding='utf-8') as f:
     json.dump(productos, f, indent=2, ensure_ascii=False)
 
-print("✅ Catálogo actualizado desde HTML local con 30% extra.")
+print(f"✅ Catálogo generado con {len(productos)} productos con imagenes absolutas y 30% de aumento.")
