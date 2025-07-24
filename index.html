@@ -73,6 +73,8 @@
   <p>Usl: <span id="onlineCount">0</span></p>
 </header>
 
+<div id="scroll-top"></div>
+  
 <input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarProductos()" />
 
 <div class="contenedor" id="lista-productos">
@@ -789,9 +791,10 @@
     });
 
     // Scroll automático al inicio de la página
-    document.getElementById("inicio").scrollIntoView({
+    document.getElementById("scroll-top").scrollIntoView({
   behavior: "smooth"
 });
+
 
 
     // Botones de paginación
