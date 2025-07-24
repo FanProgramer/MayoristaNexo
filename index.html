@@ -67,13 +67,7 @@
 </head>
 <body>
 
-<header>
-  <a href="#top"><img src="img/logo.png" alt="Mi Logo" /></a>
-  <p class="leyenda-compra-minima">🛍️ Compra mínima $250.000</p>
-  <p>Usl: <span id="onlineCount">0</span></p>
-</header>
-
- <label for="filtroCategoria">Filtrar por categoría:</label>
+<label for="filtroCategoria">Filtrar por categoría:</label>
 <select id="filtroCategoria" onchange="filtrarPorCategoria()">
   <option value="todas">Todas</option>
   <option value="Cargadores">Cargadores</option>
@@ -88,8 +82,12 @@
 <input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarProductos()" />
 
 <div class="contenedor" id="lista-productos">
-
   
+<header>
+  <a href="#top"><img src="img/logo.png" alt="Mi Logo" /></a>
+  <p class="leyenda-compra-minima">🛍️ Compra mínima $250.000</p>
+  <p>Usl: <span id="onlineCount">0</span></p>
+</header>
 
   <div class="producto" data-stock="5" data-categoria="Cargadores">
     <img src="img/20WIPHOB.jpg" alt="Cable Iphone" />
@@ -784,27 +782,33 @@
       });
     }
   });
-  function filtrarPorCategoria() {
-  const categoriaSeleccionada = document.getElementById('filtroCategoria').value.toLowerCase();
+  
+  <script>
+  const filtroCategoria = document.getElementById('filtroCategoria');
+  const buscador = document.getElementById('buscador');
   const productos = document.querySelectorAll('.producto');
-  const textoBusqueda = document.getElementById('buscador').value.toLowerCase();
 
-  productos.forEach(prod => {
-    const categoriaProducto = prod.getAttribute('data-categoria').toLowerCase();
-    const nombreProducto = prod.querySelector('h2').textContent.toLowerCase();
+  function filtrar() {
+    const categoriaSeleccionada = filtroCategoria.value.toLowerCase();
+    const textoBusqueda = buscador.value.toLowerCase();
 
-    // Mostrar solo si coincide con la categoría o "todas", y también con el texto del buscador
-    const coincideCategoria = (categoriaSeleccionada === 'todas') || (categoriaProducto === categoriaSeleccionada);
-    const coincideBusqueda = nombreProducto.includes(textoBusqueda);
+    productos.forEach(producto => {
+      const categoriaProducto = producto.getAttribute('data-categoria').toLowerCase();
+      const nombreProducto = producto.querySelector('h2').textContent.toLowerCase();
 
-    prod.style.display = (coincideCategoria && coincideBusqueda) ? 'block' : 'none';
-  });
-}
+      const coincideCategoria = (categoriaSeleccionada === 'todas') || (categoriaProducto === categoriaSeleccionada);
+      const coincideBusqueda = nombreProducto.includes(textoBusqueda);
 
-// Modifica también tu función del buscador para que llame a esta función combinada:
-function filtrarProductos() {
-  filtrarPorCategoria();
-}
+      producto.style.display = (coincideCategoria && coincideBusqueda) ? 'block' : 'none';
+    });
+  }
+
+  filtroCategoria.addEventListener('change', filtrar);
+  buscador.addEventListener('input', filtrar);
+
+  // Mostrar todos al cargar
+  filtrar();
+</script>
 
 
 
