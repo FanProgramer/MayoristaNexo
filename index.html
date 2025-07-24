@@ -77,6 +77,8 @@
 
 <div class="contenedor" id="lista-productos">
 
+  <div id="paginacion"></div>
+
   <div class="producto" data-stock="5">
     <img src="img/20WIPHOB.jpg" alt="Cable Iphone" />
     <h2>Cargadores Iphone</h2>
@@ -734,6 +736,43 @@
       });
     }
   });
+</script>
+
+<script>
+  const productosPorPagina = 40;
+  let paginaActual = 1;
+
+  function mostrarProductos(pagina) {
+    const todosLosProductos = document.querySelectorAll('.producto');
+    const totalPaginas = Math.ceil(todosLosProductos.length / productosPorPagina);
+
+    todosLosProductos.forEach((producto, index) => {
+      producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
+    });
+
+    // Desplazar hasta el logo (opcional)
+    const logo = document.getElementById('logo');
+    if (logo) {
+      logo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Botones de paginación
+    const paginacionDiv = document.getElementById('paginacion');
+    paginacionDiv.innerHTML = '';
+
+    for (let i = 1; i <= totalPaginas; i++) {
+      const boton = document.createElement('button');
+      boton.innerText = i;
+      boton.classList.add('boton-pagina');
+      if (i === pagina) boton.classList.add('activo');
+      boton.onclick = () => mostrarProductos(i);
+      paginacionDiv.appendChild(boton);
+    }
+  }
+
+  window.onload = function() {
+    mostrarProductos(paginaActual);
+  };
 </script>
   
 <script src="js/app.js"></script>
