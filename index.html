@@ -1003,6 +1003,29 @@ fetch('productos.json')
   });
   
 </script>
+
+  <div id="productos"></div>
+
+<script>
+fetch("productos.json")
+  .then(response => response.json())
+  .then(data => {
+    const contenedor = document.getElementById("productos");
+    data.forEach(producto => {
+      const html = `
+        <div class="producto">
+          <img src="${producto.imagen}" alt="${producto.codigo}" width="200">
+          <p><strong>Rubro:</strong> ${producto.rubro}</p>
+          <p><strong>Código:</strong> ${producto.codigo}</p>
+          <p><strong>Precio:</strong> ${producto.precio}</p>
+        </div>
+      `;
+      contenedor.innerHTML += html;
+    });
+  })
+  .catch(error => console.error("Error cargando productos:", error));
+</script>
+
   
 <script src="js/app.js"></script>
 </body>
