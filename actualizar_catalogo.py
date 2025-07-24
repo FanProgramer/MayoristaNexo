@@ -1,14 +1,10 @@
-import requests
 from bs4 import BeautifulSoup
 import json
 import re
 
-url = 'https://gamingcell.com.ar/catalogo2022x3.php'
-clave = {'clave': 'gaming'}
-
-s = requests.Session()
-r = s.post(url, data=clave)
-soup = BeautifulSoup(r.text, 'html.parser')
+# Leer el HTML guardado manualmente
+with open('catalogo_gamingcell.html', 'r', encoding='utf-8') as file:
+    soup = BeautifulSoup(file, 'html.parser')
 
 productos = []
 
@@ -33,5 +29,4 @@ for prod in soup.select('.card'):
 with open('productos.json', 'w', encoding='utf-8') as f:
     json.dump(productos, f, indent=2, ensure_ascii=False)
 
-print("✅ Catálogo actualizado con 30% extra.")
-
+print("✅ Catálogo actualizado desde HTML local con 30% extra.")
