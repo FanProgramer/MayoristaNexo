@@ -1,0 +1,3562 @@
+[
+    {
+        "codigo": "20WIPHOB",
+        "rubro": "Cargadores Iphone",
+        "precio": "$ 4,805"
+    },
+    {
+        "codigo": "LS-IPH2",
+        "rubro": "Adaptadores",
+        "precio": "$ 3,128"
+    },
+    {
+        "codigo": "AUX-MCH1",
+        "rubro": "Adaptadores",
+        "precio": "$ 594"
+    },
+    {
+        "codigo": "DISPHDM",
+        "rubro": "Adaptadores",
+        "precio": "$ 2,112"
+    },
+    {
+        "codigo": "HDMITC",
+        "rubro": "Adaptadores",
+        "precio": "$ 10,660"
+    },
+    {
+        "codigo": "AMR",
+        "rubro": "Adaptadores",
+        "precio": "$ 429"
+    },
+    {
+        "codigo": "MUND",
+        "rubro": "Adaptadores",
+        "precio": "$ 2,574"
+    },
+    {
+        "codigo": "1H2M",
+        "rubro": "Adaptadores",
+        "precio": "$ 739"
+    },
+    {
+        "codigo": "2H1M",
+        "rubro": "Adaptadores",
+        "precio": "$ 660"
+    },
+    {
+        "codigo": "MOS",
+        "rubro": "Adaptadores",
+        "precio": "$ 422"
+    },
+    {
+        "codigo": "PRM-AMR3",
+        "rubro": "Adaptadores",
+        "precio": "$ 1,300"
+    },
+    {
+        "codigo": "NM-SATA4",
+        "rubro": "Adaptadores",
+        "precio": "$ 9,685"
+    },
+    {
+        "codigo": "DISPLVG",
+        "rubro": "Adaptadores",
+        "precio": "$ 2,970"
+    },
+    {
+        "codigo": "DL-9215",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 19,008"
+    },
+    {
+        "codigo": "DL-9235",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 13,728"
+    },
+    {
+        "codigo": "RE2301",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 11,550"
+    },
+    {
+        "codigo": "AIRPODS2",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 17,160"
+    },
+    {
+        "codigo": "M-20C",
+        "rubro": "Cargadores TC",
+        "precio": "$ 1,980"
+    },
+    {
+        "codigo": "AI-42M",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 3,894"
+    },
+    {
+        "codigo": "AI-31C",
+        "rubro": "Cargadores TC",
+        "precio": "$ 3,828"
+    },
+    {
+        "codigo": "ALARG",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,056"
+    },
+    {
+        "codigo": "MS-08",
+        "rubro": "Varios",
+        "precio": "$ 5,940"
+    },
+    {
+        "codigo": "AMAZON",
+        "rubro": "Convertidor Smart",
+        "precio": "$ 77,220"
+    },
+    {
+        "codigo": "AD-C301A",
+        "rubro": "Anafe",
+        "precio": "$ 23,918"
+    },
+    {
+        "codigo": "HT-100A",
+        "rubro": "Anafe",
+        "precio": "$ 12,540"
+    },
+    {
+        "codigo": "AW-600",
+        "rubro": "Adaptadores",
+        "precio": "$ 3,854"
+    },
+    {
+        "codigo": "AW-1200",
+        "rubro": "Adaptadores",
+        "precio": "$ 4,092"
+    },
+    {
+        "codigo": "AWI-200",
+        "rubro": "Adaptadores",
+        "precio": "$ 3,511"
+    },
+    {
+        "codigo": "MJ-30",
+        "rubro": "Aros",
+        "precio": "$ 17,820"
+    },
+    {
+        "codigo": "QX-360KA",
+        "rubro": "Aros",
+        "precio": "$ 17,424"
+    },
+    {
+        "codigo": "DX-36",
+        "rubro": "Aros",
+        "precio": "$ 21,120"
+    },
+    {
+        "codigo": "ASP",
+        "rubro": "HOGAR",
+        "precio": "$ 18,480"
+    },
+    {
+        "codigo": "MD-16",
+        "rubro": "Varios",
+        "precio": "$ 21,450"
+    },
+    {
+        "codigo": "I12",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 3,775"
+    },
+    {
+        "codigo": "AI-19",
+        "rubro": "Auricular Vincha con Cab",
+        "precio": "$ 4,488"
+    },
+    {
+        "codigo": "AKG32",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "AKGTC",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 3,036"
+    },
+    {
+        "codigo": "MOD91",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "BOC32",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,518"
+    },
+    {
+        "codigo": "BUDS",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 15,180"
+    },
+    {
+        "codigo": "NM-ATHLET",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 18,850"
+    },
+    {
+        "codigo": "SPORT100",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 28,860"
+    },
+    {
+        "codigo": "BUDSPRO3",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 14,652"
+    },
+    {
+        "codigo": "T102",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,214"
+    },
+    {
+        "codigo": "450BT",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 12,540"
+    },
+    {
+        "codigo": "BH-503",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 11,880"
+    },
+    {
+        "codigo": "G11",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 6,072"
+    },
+    {
+        "codigo": "M28",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 5,082"
+    },
+    {
+        "codigo": "M90PRO",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 4,950"
+    },
+    {
+        "codigo": "ULTRAPODS-PRO",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 5,016"
+    },
+    {
+        "codigo": "Y08",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "A6S",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 3,775"
+    },
+    {
+        "codigo": "ZBW4467",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 7,920"
+    },
+    {
+        "codigo": "BUDS3",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 20,618"
+    },
+    {
+        "codigo": "P47",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 4,488"
+    },
+    {
+        "codigo": "P47M",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 4,488"
+    },
+    {
+        "codigo": "E6S",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 3,854"
+    },
+    {
+        "codigo": "F9-5",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 5,280"
+    },
+    {
+        "codigo": "BUDS2PRO",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 15,444"
+    },
+    {
+        "codigo": "TUNE2691",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 14,256"
+    },
+    {
+        "codigo": "TUNE760",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 14,256"
+    },
+    {
+        "codigo": "KSM230",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 15,840"
+    },
+    {
+        "codigo": "M10",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 4,290"
+    },
+    {
+        "codigo": "PM-TUNE760",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 16,185"
+    },
+    {
+        "codigo": "PM-AU-040",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 21,385"
+    },
+    {
+        "codigo": "NM-LIVE",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 17,550"
+    },
+    {
+        "codigo": "NM-SMART",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 28,275"
+    },
+    {
+        "codigo": "NM-VOLT",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 22,100"
+    },
+    {
+        "codigo": "P9",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 7,392"
+    },
+    {
+        "codigo": "GC1806-6",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 21,120"
+    },
+    {
+        "codigo": "ZBW4480GL",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 11,484"
+    },
+    {
+        "codigo": "BHR419CN",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 7,920"
+    },
+    {
+        "codigo": "AH-806A",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 13,926"
+    },
+    {
+        "codigo": "SOUINF",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,228"
+    },
+    {
+        "codigo": "IPH32",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "IPHDIR",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 6,006"
+    },
+    {
+        "codigo": "TOURPRO2",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 28,380"
+    },
+    {
+        "codigo": "TUNEFLEX",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 13,860"
+    },
+    {
+        "codigo": "TWS-BT03",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 19,800"
+    },
+    {
+        "codigo": "WAVE300",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 15,840"
+    },
+    {
+        "codigo": "M20",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 4,950"
+    },
+    {
+        "codigo": "XO",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 792"
+    },
+    {
+        "codigo": "MEG32",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,122"
+    },
+    {
+        "codigo": "MIXOR",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,320"
+    },
+    {
+        "codigo": "PM-AU-050",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 15,600"
+    },
+    {
+        "codigo": "MIKO",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 13,650"
+    },
+    {
+        "codigo": "STN-28",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "FT8312",
+        "rubro": "Auriculares para PC y Ga",
+        "precio": "$ 11,880"
+    },
+    {
+        "codigo": "NG-8620",
+        "rubro": "Auriculares para PC y Ga",
+        "precio": "$ 14,300"
+    },
+    {
+        "codigo": "E76",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,320"
+    },
+    {
+        "codigo": "E86",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,320"
+    },
+    {
+        "codigo": "RISING",
+        "rubro": "Auriculares para PC y Ga",
+        "precio": "$ 15,210"
+    },
+    {
+        "codigo": "AUR-PRO21WIR",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 14,810"
+    },
+    {
+        "codigo": "PRO32",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 2,340"
+    },
+    {
+        "codigo": "AUR-PRO21",
+        "rubro": "Auricular Vincha con Cab",
+        "precio": "$ 7,345"
+    },
+    {
+        "codigo": "BUDS4LITE",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 20,249"
+    },
+    {
+        "codigo": "BUDS+",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 15,180"
+    },
+    {
+        "codigo": "HS330",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,122"
+    },
+    {
+        "codigo": "E20",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "ORISAM",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "RISAM",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,716"
+    },
+    {
+        "codigo": "SAM32",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "SUNG123",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,056"
+    },
+    {
+        "codigo": "S389",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 4,940"
+    },
+    {
+        "codigo": "BT250",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 22,100"
+    },
+    {
+        "codigo": "S89",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 5,070"
+    },
+    {
+        "codigo": "SPORT45",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 2,574"
+    },
+    {
+        "codigo": "SPORT89",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 1,980"
+    },
+    {
+        "codigo": "PROAIR",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 11,154"
+    },
+    {
+        "codigo": "SPN-01",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,584"
+    },
+    {
+        "codigo": "TC569",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 2,534"
+    },
+    {
+        "codigo": "U28",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 898"
+    },
+    {
+        "codigo": "MOD88",
+        "rubro": "Auriculares vincha inalá",
+        "precio": "$ 7,920"
+    },
+    {
+        "codigo": "BASIC2",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 18,018"
+    },
+    {
+        "codigo": "CFN",
+        "rubro": "Balanzas",
+        "precio": "$ 36,828"
+    },
+    {
+        "codigo": "MH-500",
+        "rubro": "Balanzas",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "SV-10",
+        "rubro": "Balanzas",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "SF-400",
+        "rubro": "Balanzas",
+        "precio": "$ 4,290"
+    },
+    {
+        "codigo": "WH-A08",
+        "rubro": "Balanzas",
+        "precio": "$ 5,016"
+    },
+    {
+        "codigo": "BV90",
+        "rubro": "Balanzas",
+        "precio": "$ 6,072"
+    },
+    {
+        "codigo": "BAL003A",
+        "rubro": "Balanzas",
+        "precio": "$ 8,976"
+    },
+    {
+        "codigo": "AF24010",
+        "rubro": "Balanzas",
+        "precio": "$ 9,610"
+    },
+    {
+        "codigo": "SPG-152",
+        "rubro": "Parlante PC",
+        "precio": "$ 7,524"
+    },
+    {
+        "codigo": "BATCAF",
+        "rubro": "Varios",
+        "precio": "$ 1,716"
+    },
+    {
+        "codigo": "AW-200",
+        "rubro": "Cocina",
+        "precio": "$ 13,398"
+    },
+    {
+        "codigo": "HE-133",
+        "rubro": "Cocina",
+        "precio": "$ 12,012"
+    },
+    {
+        "codigo": "SK-02012",
+        "rubro": "Cocina",
+        "precio": "$ 36,036"
+    },
+    {
+        "codigo": "BATPACK",
+        "rubro": "Cargador Portatil - Powe",
+        "precio": "$ 12,144"
+    },
+    {
+        "codigo": "LEDMAGIC",
+        "rubro": "Fiesta",
+        "precio": "$ 5,544"
+    },
+    {
+        "codigo": "BOT31",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "VACUUM",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 12,408"
+    },
+    {
+        "codigo": "BOTINF",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 11,154"
+    },
+    {
+        "codigo": "BOTINF2",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 11,154"
+    },
+    {
+        "codigo": "BOTINF3",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 11,154"
+    },
+    {
+        "codigo": "BOTINF1",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 12,870"
+    },
+    {
+        "codigo": "BUCL",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "12WIPH",
+        "rubro": "Cabezales",
+        "precio": "$ 4,752"
+    },
+    {
+        "codigo": "CAB20W",
+        "rubro": "Cabezales",
+        "precio": "$ 3,432"
+    },
+    {
+        "codigo": "SAM-1202",
+        "rubro": "Cabezales",
+        "precio": "$ 3,102"
+    },
+    {
+        "codigo": "AICP120502",
+        "rubro": "Cabezales",
+        "precio": "$ 1,914"
+    },
+    {
+        "codigo": "MIXLEYE",
+        "rubro": "Cabezales",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "IB-586",
+        "rubro": "Cabezales",
+        "precio": "$ 2,772"
+    },
+    {
+        "codigo": "AICP210758B",
+        "rubro": "Cabezales",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "AP-CAR1",
+        "rubro": "Cabezal para auto",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "KOS6A12V",
+        "rubro": "Cabezal para auto",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "EP-TA84",
+        "rubro": "Cabezales",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "IB-582",
+        "rubro": "Cabezales",
+        "precio": "$ 3,036"
+    },
+    {
+        "codigo": "CA50W",
+        "rubro": "Cabezales",
+        "precio": "$ 3,828"
+    },
+    {
+        "codigo": "EP-456",
+        "rubro": "Cabezales",
+        "precio": "$ 3,168"
+    },
+    {
+        "codigo": "SAM-45",
+        "rubro": "Cabezales",
+        "precio": "$ 4,356"
+    },
+    {
+        "codigo": "SAM-45A",
+        "rubro": "Cabezales",
+        "precio": "$ 3,432"
+    },
+    {
+        "codigo": "YPE-CFD",
+        "rubro": "Cabezales",
+        "precio": "$ 3,564"
+    },
+    {
+        "codigo": "TP-5+1",
+        "rubro": "Varios",
+        "precio": "$ 11,550"
+    },
+    {
+        "codigo": "DC183i",
+        "rubro": "Cables iPhone",
+        "precio": "$ 1,782"
+    },
+    {
+        "codigo": "DC73i",
+        "rubro": "Cables iPhone",
+        "precio": "$ 1,056"
+    },
+    {
+        "codigo": "DC73C",
+        "rubro": "Cables TC",
+        "precio": "$ 1,056"
+    },
+    {
+        "codigo": "HBL-CABV801",
+        "rubro": "Cable V8 - Micro",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "AIT2M",
+        "rubro": "Cables TC",
+        "precio": "$ 1,386"
+    },
+    {
+        "codigo": "AUX89",
+        "rubro": "Cables Varios",
+        "precio": "$ 515"
+    },
+    {
+        "codigo": "AUX35C",
+        "rubro": "Cables Varios",
+        "precio": "$ 924"
+    },
+    {
+        "codigo": "USB-CBL2M",
+        "rubro": "Cable V8 - Micro",
+        "precio": "$ 990"
+    },
+    {
+        "codigo": "HBL-CABTC02",
+        "rubro": "Cables TC",
+        "precio": "$ 1,254"
+    },
+    {
+        "codigo": "A41-00161",
+        "rubro": "Cables Varios",
+        "precio": "$ 6,600"
+    },
+    {
+        "codigo": "HD-V8",
+        "rubro": "Cables Varios",
+        "precio": "$ 2,904"
+    },
+    {
+        "codigo": "AP-1500H",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "4K-15",
+        "rubro": "Cables Varios",
+        "precio": "$ 2,152"
+    },
+    {
+        "codigo": "HD-10M",
+        "rubro": "Cables Varios",
+        "precio": "$ 5,808"
+    },
+    {
+        "codigo": "VS-4",
+        "rubro": "Cables Varios",
+        "precio": "$ 2,310"
+    },
+    {
+        "codigo": "HD-5M",
+        "rubro": "Cables Varios",
+        "precio": "$ 3,168"
+    },
+    {
+        "codigo": "DVI15",
+        "rubro": "Cables Varios",
+        "precio": "$ 3,036"
+    },
+    {
+        "codigo": "HD-VG",
+        "rubro": "Cables Varios",
+        "precio": "$ 3,775"
+    },
+    {
+        "codigo": "J06",
+        "rubro": "Cables Varios",
+        "precio": "$ 990"
+    },
+    {
+        "codigo": "BO-1045",
+        "rubro": "Cables Varios",
+        "precio": "$ 2,112"
+    },
+    {
+        "codigo": "INT-LCK-2",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,888"
+    },
+    {
+        "codigo": "IPHTCTC",
+        "rubro": "Cable TC a TC",
+        "precio": "$ 1,386"
+    },
+    {
+        "codigo": "LS852",
+        "rubro": "Cables TC",
+        "precio": "$ 2,508"
+    },
+    {
+        "codigo": "A1703",
+        "rubro": "Cables iPhone",
+        "precio": "$ 1,716"
+    },
+    {
+        "codigo": "MIXTC",
+        "rubro": "Cables TC",
+        "precio": "$ 858"
+    },
+    {
+        "codigo": "PM-31A",
+        "rubro": "Cables TC",
+        "precio": "$ 1,755"
+    },
+    {
+        "codigo": "PM-USB-002",
+        "rubro": "Cables iPhone",
+        "precio": "$ 1,755"
+    },
+    {
+        "codigo": "PM-CL-201",
+        "rubro": "Cables iPhone",
+        "precio": "$ 3,055"
+    },
+    {
+        "codigo": "PM-CC-101",
+        "rubro": "Cable TC a TC",
+        "precio": "$ 2,046"
+    },
+    {
+        "codigo": "MTC-30A",
+        "rubro": "Cables TC",
+        "precio": "$ 858"
+    },
+    {
+        "codigo": "MOTV8",
+        "rubro": "Cable V8 - Micro",
+        "precio": "$ 818"
+    },
+    {
+        "codigo": "NM-117",
+        "rubro": "Cable V8 - Micro",
+        "precio": "$ 1,300"
+    },
+    {
+        "codigo": "OPT",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,716"
+    },
+    {
+        "codigo": "POW56",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,584"
+    },
+    {
+        "codigo": "PROTC",
+        "rubro": "Cables TC",
+        "precio": "$ 1,885"
+    },
+    {
+        "codigo": "PTC",
+        "rubro": "Cables TC",
+        "precio": "$ 1,650"
+    },
+    {
+        "codigo": "FC-PS4",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,650"
+    },
+    {
+        "codigo": "RCA21",
+        "rubro": "Cables Varios",
+        "precio": "$ 594"
+    },
+    {
+        "codigo": "RCA23",
+        "rubro": "Cables Varios",
+        "precio": "$ 739"
+    },
+    {
+        "codigo": "RCA33",
+        "rubro": "Cables Varios",
+        "precio": "$ 739"
+    },
+    {
+        "codigo": "RED10",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,650"
+    },
+    {
+        "codigo": "DIT10",
+        "rubro": "Cables Varios",
+        "precio": "$ 2,402"
+    },
+    {
+        "codigo": "RED15",
+        "rubro": "Cables Varios",
+        "precio": "$ 2,508"
+    },
+    {
+        "codigo": "RED20",
+        "rubro": "Cables Varios",
+        "precio": "$ 3,432"
+    },
+    {
+        "codigo": "DIT20",
+        "rubro": "Cables Varios",
+        "precio": "$ 4,290"
+    },
+    {
+        "codigo": "RED3",
+        "rubro": "Cables Varios",
+        "precio": "$ 924"
+    },
+    {
+        "codigo": "RED30",
+        "rubro": "Cables Varios",
+        "precio": "$ 4,290"
+    },
+    {
+        "codigo": "RED5",
+        "rubro": "Cables Varios",
+        "precio": "$ 990"
+    },
+    {
+        "codigo": "STC-30A",
+        "rubro": "Cables TC",
+        "precio": "$ 858"
+    },
+    {
+        "codigo": "SAMV8",
+        "rubro": "Cable V8 - Micro",
+        "precio": "$ 818"
+    },
+    {
+        "codigo": "LIGHT2BL",
+        "rubro": "Cables iPhone",
+        "precio": "$ 1,848"
+    },
+    {
+        "codigo": "TYPE2BL",
+        "rubro": "Cables TC",
+        "precio": "$ 1,848"
+    },
+    {
+        "codigo": "USB-CLV8",
+        "rubro": "Cable V8 - Micro",
+        "precio": "$ 1,170"
+    },
+    {
+        "codigo": "FLAIP",
+        "rubro": "Cables iPhone",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "FLATC",
+        "rubro": "Cables TC",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "FLATCC",
+        "rubro": "Cable TC a TC",
+        "precio": "$ 3,762"
+    },
+    {
+        "codigo": "SUPER120V8",
+        "rubro": "Cable V8 - Micro",
+        "precio": "$ 990"
+    },
+    {
+        "codigo": "JKX-B48",
+        "rubro": "Cables TC",
+        "precio": "$ 1,254"
+    },
+    {
+        "codigo": "THOR",
+        "rubro": "Cables TC",
+        "precio": "$ 1,716"
+    },
+    {
+        "codigo": "V3",
+        "rubro": "Cables Varios",
+        "precio": "$ 990"
+    },
+    {
+        "codigo": "VGA2M",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,848"
+    },
+    {
+        "codigo": "VGA1608",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,584"
+    },
+    {
+        "codigo": "CACT",
+        "rubro": "Varios",
+        "precio": "$ 6,930"
+    },
+    {
+        "codigo": "PA-04009",
+        "rubro": "Cocina",
+        "precio": "$ 118,272"
+    },
+    {
+        "codigo": "AIHG251307N",
+        "rubro": "HOGAR",
+        "precio": "$ 29,304"
+    },
+    {
+        "codigo": "KP-600",
+        "rubro": "Cocina",
+        "precio": "$ 17,160"
+    },
+    {
+        "codigo": "CT-2278",
+        "rubro": "Calculadora",
+        "precio": "$ 6,204"
+    },
+    {
+        "codigo": "KK-2260",
+        "rubro": "Calculadora",
+        "precio": "$ 5,874"
+    },
+    {
+        "codigo": "KK.837B",
+        "rubro": "Calculadora",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "KK-1048B",
+        "rubro": "Calculadora",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "KK-82MS",
+        "rubro": "Calculadora",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "DX-2289",
+        "rubro": "Calculadora",
+        "precio": "$ 6,600"
+    },
+    {
+        "codigo": "KK-813",
+        "rubro": "Calculadora",
+        "precio": "$ 6,600"
+    },
+    {
+        "codigo": "CALUT",
+        "rubro": "Varios",
+        "precio": "$ 3,775"
+    },
+    {
+        "codigo": "CAMPRINT2",
+        "rubro": "Camaras",
+        "precio": "$ 34,320"
+    },
+    {
+        "codigo": "VIDL",
+        "rubro": "Camaras",
+        "precio": "$ 33,660"
+    },
+    {
+        "codigo": "OR-101KA",
+        "rubro": "Camaras",
+        "precio": "$ 29,964"
+    },
+    {
+        "codigo": "HT-1001",
+        "rubro": "Camaras",
+        "precio": "$ 18,652"
+    },
+    {
+        "codigo": "INFCAM",
+        "rubro": "Camaras",
+        "precio": "$ 16,500"
+    },
+    {
+        "codigo": "HT-8179",
+        "rubro": "Camaras",
+        "precio": "$ 36,036"
+    },
+    {
+        "codigo": "HT-160B",
+        "rubro": "Camaras",
+        "precio": "$ 24,420"
+    },
+    {
+        "codigo": "SV-118",
+        "rubro": "Camaras",
+        "precio": "$ 25,740"
+    },
+    {
+        "codigo": "CARBL",
+        "rubro": "Accesorios para auto",
+        "precio": "$ 1,716"
+    },
+    {
+        "codigo": "LA-081",
+        "rubro": "Cargador Portatil - Powe",
+        "precio": "$ 10,824"
+    },
+    {
+        "codigo": "PB74",
+        "rubro": "Cargador Portatil - Powe",
+        "precio": "$ 16,302"
+    },
+    {
+        "codigo": "KSM10A",
+        "rubro": "Cargador Portatil - Powe",
+        "precio": "$ 13,464"
+    },
+    {
+        "codigo": "IPHTC20",
+        "rubro": "Cargadores Iphone",
+        "precio": "$ 4,818"
+    },
+    {
+        "codigo": "PD01",
+        "rubro": "Cargadores TC",
+        "precio": "$ 4,818"
+    },
+    {
+        "codigo": "LT-310",
+        "rubro": "Cargadores TC",
+        "precio": "$ 4,884"
+    },
+    {
+        "codigo": "HY-50W",
+        "rubro": "Cargadores TC",
+        "precio": "$ 4,818"
+    },
+    {
+        "codigo": "AICP130230",
+        "rubro": "Cargadores TC",
+        "precio": "$ 1,888"
+    },
+    {
+        "codigo": "AICP060140X",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 1,558"
+    },
+    {
+        "codigo": "ALCO120254",
+        "rubro": "Cargadores TC",
+        "precio": "$ 2,904"
+    },
+    {
+        "codigo": "AICP120254R",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 2,772"
+    },
+    {
+        "codigo": "AI-32C",
+        "rubro": "Cargadores TC",
+        "precio": "$ 3,868"
+    },
+    {
+        "codigo": "M505",
+        "rubro": "Cargador Auto V8",
+        "precio": "$ 3,538"
+    },
+    {
+        "codigo": "AUTMOT",
+        "rubro": "Cargador Auto V8",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "PLG-12",
+        "rubro": "Cargador Auto TC",
+        "precio": "$ 6,006"
+    },
+    {
+        "codigo": "CARAV8-31A",
+        "rubro": "Cargador Auto TC",
+        "precio": "$ 5,785"
+    },
+    {
+        "codigo": "CARAT-31A",
+        "rubro": "Cargador Auto V8",
+        "precio": "$ 5,408"
+    },
+    {
+        "codigo": "AV-1627",
+        "rubro": "Cargador Auto V8",
+        "precio": "$ 4,118"
+    },
+    {
+        "codigo": "BAS-V8",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "HT-120W",
+        "rubro": "Cargador de Notebook Y f",
+        "precio": "$ 9,108"
+    },
+    {
+        "codigo": "MY120W",
+        "rubro": "Cargador de Notebook Y f",
+        "precio": "$ 12,870"
+    },
+    {
+        "codigo": "1002",
+        "rubro": "Cargador de Notebook Y f",
+        "precio": "$ 9,108"
+    },
+    {
+        "codigo": "NG-516",
+        "rubro": "Pilas",
+        "precio": "$ 8,184"
+    },
+    {
+        "codigo": "SK-PA304",
+        "rubro": "Cargadores TC",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "HBL-TC1",
+        "rubro": "Cargadores TC",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "HBL-TC24",
+        "rubro": "Cargadores TC",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "HBL-V8901",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 2,772"
+    },
+    {
+        "codigo": "IB-2601",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 1,782"
+    },
+    {
+        "codigo": "IB-3026",
+        "rubro": "Cargadores TC",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "IB-3804",
+        "rubro": "Cargadores TC",
+        "precio": "$ 2,112"
+    },
+    {
+        "codigo": "HY06",
+        "rubro": "Cargador Inalambrico y u",
+        "precio": "$ 7,392"
+    },
+    {
+        "codigo": "CAR-2002",
+        "rubro": "Cargadores TC",
+        "precio": "$ 2,145"
+    },
+    {
+        "codigo": "CAR-3100AP",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 2,772"
+    },
+    {
+        "codigo": "LC111A-INO",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 2,772"
+    },
+    {
+        "codigo": "KOS2ATC",
+        "rubro": "Cargadores TC",
+        "precio": "$ 2,772"
+    },
+    {
+        "codigo": "KOS275V8",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 2,548"
+    },
+    {
+        "codigo": "KS-18I",
+        "rubro": "Cargadores TC",
+        "precio": "$ 6,217"
+    },
+    {
+        "codigo": "LC222A",
+        "rubro": "Cargadores TC",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "LC111A",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 3,036"
+    },
+    {
+        "codigo": "MIX45IP",
+        "rubro": "Cargadores Iphone",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "MIX45W",
+        "rubro": "Cargadores TC",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "MIXQUI",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 2,376"
+    },
+    {
+        "codigo": "MODM-009",
+        "rubro": "Cargadores Iphone",
+        "precio": "$ 3,485"
+    },
+    {
+        "codigo": "MIXOR12V",
+        "rubro": "Cargador Auto TC",
+        "precio": "$ 2,574"
+    },
+    {
+        "codigo": "MOT125",
+        "rubro": "Cargadores TC",
+        "precio": "$ 6,006"
+    },
+    {
+        "codigo": "ORI456",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "NEXO",
+        "rubro": "Cargador de Notebook Y f",
+        "precio": "$ 12,012"
+    },
+    {
+        "codigo": "TP4-001",
+        "rubro": "Cargador de Notebook Y f",
+        "precio": "$ 3,828"
+    },
+    {
+        "codigo": "HBL-POWIR01",
+        "rubro": "Cargador Portatil - Powe",
+        "precio": "$ 16,632"
+    },
+    {
+        "codigo": "CARV8-PRO21A",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 3,510"
+    },
+    {
+        "codigo": "CARTC-PRO21A",
+        "rubro": "Cargadores TC",
+        "precio": "$ 3,705"
+    },
+    {
+        "codigo": "P-31",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 4,355"
+    },
+    {
+        "codigo": "P-31TC",
+        "rubro": "Cargadores TC",
+        "precio": "$ 4,810"
+    },
+    {
+        "codigo": "SAM15W",
+        "rubro": "Cargadores V8 - Micro",
+        "precio": "$ 1,716"
+    },
+    {
+        "codigo": "AV-1192",
+        "rubro": "Cargadores TC",
+        "precio": "$ 4,118"
+    },
+    {
+        "codigo": "OAGA",
+        "rubro": "Cargadores TC",
+        "precio": "$ 2,112"
+    },
+    {
+        "codigo": "MG2031",
+        "rubro": "Cargador Inalambrico y u",
+        "precio": "$ 1,320"
+    },
+    {
+        "codigo": "SP-10",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 13,200"
+    },
+    {
+        "codigo": "NHC-8810",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 7,392"
+    },
+    {
+        "codigo": "OR1202",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 14,850"
+    },
+    {
+        "codigo": "CHR",
+        "rubro": "Convertidor Smart",
+        "precio": "$ 75,240"
+    },
+    {
+        "codigo": "AIRCOM",
+        "rubro": "Varios",
+        "precio": "$ 27,720"
+    },
+    {
+        "codigo": "GAMESTICK-LITE",
+        "rubro": "Consolas",
+        "precio": "$ 27,720"
+    },
+    {
+        "codigo": "GAMESTICK3D",
+        "rubro": "Consolas",
+        "precio": "$ 39,600"
+    },
+    {
+        "codigo": "TVBOXGAME",
+        "rubro": "Consolas",
+        "precio": "$ 47,520"
+    },
+    {
+        "codigo": "A-5474-3",
+        "rubro": "Consolas",
+        "precio": "$ 11,550"
+    },
+    {
+        "codigo": "RAUS-25033",
+        "rubro": "Contadoreas de Billetes",
+        "precio": "$ 97,680"
+    },
+    {
+        "codigo": "GM-009",
+        "rubro": "Contadoreas de Billetes",
+        "precio": "$ 90,288"
+    },
+    {
+        "codigo": "CP-600",
+        "rubro": "Contadoreas de Billetes",
+        "precio": "$ 56,760"
+    },
+    {
+        "codigo": "K-1028V",
+        "rubro": "Controles",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "BACKLIT",
+        "rubro": "Controles",
+        "precio": "$ 7,524"
+    },
+    {
+        "codigo": "NKB",
+        "rubro": "Controles",
+        "precio": "$ 10,400"
+    },
+    {
+        "codigo": "RM-14",
+        "rubro": "Controles",
+        "precio": "$ 3,036"
+    },
+    {
+        "codigo": "V-1192",
+        "rubro": "Controles",
+        "precio": "$ 3,168"
+    },
+    {
+        "codigo": "NM-HD2",
+        "rubro": "Adaptadores",
+        "precio": "$ 7,085"
+    },
+    {
+        "codigo": "HDMI2VGA",
+        "rubro": "Adaptadores",
+        "precio": "$ 6,732"
+    },
+    {
+        "codigo": "TVONN",
+        "rubro": "Convertidor Smart",
+        "precio": "$ 44,352"
+    },
+    {
+        "codigo": "DL-1511",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 10,032"
+    },
+    {
+        "codigo": "CP1029",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 10,692"
+    },
+    {
+        "codigo": "PETORYX",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 15,840"
+    },
+    {
+        "codigo": "HT-4640",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 13,926"
+    },
+    {
+        "codigo": "WL-10002B",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 8,250"
+    },
+    {
+        "codigo": "MR-073",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 13,900"
+    },
+    {
+        "codigo": "AT-509",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 9,438"
+    },
+    {
+        "codigo": "AT-519",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 11,154"
+    },
+    {
+        "codigo": "ZX-115",
+        "rubro": "Varios",
+        "precio": "$ 5,438"
+    },
+    {
+        "codigo": "JORTAN4U",
+        "rubro": "Camaras",
+        "precio": "$ 51,480"
+    },
+    {
+        "codigo": "DRON",
+        "rubro": "Varios",
+        "precio": "$ 39,468"
+    },
+    {
+        "codigo": "E99",
+        "rubro": "Varios",
+        "precio": "$ 30,030"
+    },
+    {
+        "codigo": "TAIYOO",
+        "rubro": "Varios",
+        "precio": "$ 10,560"
+    },
+    {
+        "codigo": "J968",
+        "rubro": "Varios",
+        "precio": "$ 7,656"
+    },
+    {
+        "codigo": "JG-988",
+        "rubro": "Varios",
+        "precio": "$ 12,434"
+    },
+    {
+        "codigo": "CH003",
+        "rubro": "Varios",
+        "precio": "$ 44,418"
+    },
+    {
+        "codigo": "ESPR",
+        "rubro": "HOGAR",
+        "precio": "$ 15,668"
+    },
+    {
+        "codigo": "EXPANPA",
+        "rubro": "Varios",
+        "precio": "$ 1,782"
+    },
+    {
+        "codigo": "BN198",
+        "rubro": "Extensor y Router",
+        "precio": "$ 13,728"
+    },
+    {
+        "codigo": "TL-WA85ORE",
+        "rubro": "Extensor y Router",
+        "precio": "$ 41,405"
+    },
+    {
+        "codigo": "PB79",
+        "rubro": "Cargador Portatil - Powe",
+        "precio": "$ 15,444"
+    },
+    {
+        "codigo": "LED15W",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 1,430"
+    },
+    {
+        "codigo": "LED20W",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 2,080"
+    },
+    {
+        "codigo": "LED30W",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 3,510"
+    },
+    {
+        "codigo": "LED40W",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 4,810"
+    },
+    {
+        "codigo": "LED48W",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 7,150"
+    },
+    {
+        "codigo": "LED9W",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 1,014"
+    },
+    {
+        "codigo": "LMB",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "SV-FOCO",
+        "rubro": "Fiesta",
+        "precio": "$ 1,914"
+    },
+    {
+        "codigo": "OR939A1",
+        "rubro": "HOGAR",
+        "precio": "$ 60,060"
+    },
+    {
+        "codigo": "OR940A-3",
+        "rubro": "Cocina",
+        "precio": "$ 77,220"
+    },
+    {
+        "codigo": "AP-FTP001",
+        "rubro": "Cargador de Notebook Y f",
+        "precio": "$ 3,102"
+    },
+    {
+        "codigo": "FUNDAG",
+        "rubro": "Varios",
+        "precio": "$ 924"
+    },
+    {
+        "codigo": "FUNDA10",
+        "rubro": "Varios",
+        "precio": "$ 3,564"
+    },
+    {
+        "codigo": "FUNDA7",
+        "rubro": "Varios",
+        "precio": "$ 1,320"
+    },
+    {
+        "codigo": "INOV7",
+        "rubro": "Varios",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "FUAIR",
+        "rubro": "Varios",
+        "precio": "$ 1,518"
+    },
+    {
+        "codigo": "BUDDS3",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 17,160"
+    },
+    {
+        "codigo": "USB-CBL3M",
+        "rubro": "Cable V8 - Micro",
+        "precio": "$ 1,584"
+    },
+    {
+        "codigo": "HDMINI",
+        "rubro": "Cables Varios",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "HD-20M",
+        "rubro": "Cables Varios",
+        "precio": "$ 9,438"
+    },
+    {
+        "codigo": "HIDAU",
+        "rubro": "Accesorios para auto",
+        "precio": "$ 48,048"
+    },
+    {
+        "codigo": "USB04",
+        "rubro": "Adaptadores",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "HB-016",
+        "rubro": "Adaptadores",
+        "precio": "$ 3,564"
+    },
+    {
+        "codigo": "NM-8IN1",
+        "rubro": "Adaptadores",
+        "precio": "$ 30,576"
+    },
+    {
+        "codigo": "HUB4",
+        "rubro": "Adaptadores",
+        "precio": "$ 1,848"
+    },
+    {
+        "codigo": "NM-6IN1",
+        "rubro": "Adaptadores",
+        "precio": "$ 28,080"
+    },
+    {
+        "codigo": "HUM",
+        "rubro": "HOGAR",
+        "precio": "$ 6,600"
+    },
+    {
+        "codigo": "QH215",
+        "rubro": "HOGAR",
+        "precio": "$ 6,864"
+    },
+    {
+        "codigo": "IPHT",
+        "rubro": "Cables iPhone",
+        "precio": "$ 1,386"
+    },
+    {
+        "codigo": "JCKIPH",
+        "rubro": "Adaptadores",
+        "precio": "$ 2,112"
+    },
+    {
+        "codigo": "JCKTC",
+        "rubro": "Adaptadores",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "JY-2002",
+        "rubro": "Joystick",
+        "precio": "$ 18,850"
+    },
+    {
+        "codigo": "SKJOY1",
+        "rubro": "Joystick",
+        "precio": "$ 11,880"
+    },
+    {
+        "codigo": "PC-USB",
+        "rubro": "Joystick PC",
+        "precio": "$ 5,940"
+    },
+    {
+        "codigo": "NG-2103",
+        "rubro": "Joystick PC",
+        "precio": "$ 6,500"
+    },
+    {
+        "codigo": "PS2",
+        "rubro": "Joystick Ps2",
+        "precio": "$ 5,940"
+    },
+    {
+        "codigo": "PS2SON",
+        "rubro": "Joystick Ps2",
+        "precio": "$ 7,088"
+    },
+    {
+        "codigo": "JPS3",
+        "rubro": "Joystick Ps3",
+        "precio": "$ 8,250"
+    },
+    {
+        "codigo": "PS3SON",
+        "rubro": "Joystick Ps3",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "PS4ARG",
+        "rubro": "Joystick Ps4",
+        "precio": "$ 18,084"
+    },
+    {
+        "codigo": "PS4MET",
+        "rubro": "Joystick Ps4",
+        "precio": "$ 18,084"
+    },
+    {
+        "codigo": "PS4MES",
+        "rubro": "Joystick Ps4",
+        "precio": "$ 18,084"
+    },
+    {
+        "codigo": "NM-P401",
+        "rubro": "Joystick Ps4",
+        "precio": "$ 19,500"
+    },
+    {
+        "codigo": "PS4COL",
+        "rubro": "Joystick Ps4",
+        "precio": "$ 17,424"
+    },
+    {
+        "codigo": "PS4CAM",
+        "rubro": "Joystick Ps4",
+        "precio": "$ 18,084"
+    },
+    {
+        "codigo": "PS4DIS",
+        "rubro": "Joystick Ps4",
+        "precio": "$ 18,084"
+    },
+    {
+        "codigo": "PS4AFA",
+        "rubro": "Joystick Ps4",
+        "precio": "$ 18,084"
+    },
+    {
+        "codigo": "XBOX360",
+        "rubro": "Joystick Xbox",
+        "precio": "$ 16,632"
+    },
+    {
+        "codigo": "NIV4",
+        "rubro": "Camaras",
+        "precio": "$ 115,500"
+    },
+    {
+        "codigo": "KIR65",
+        "rubro": "Varios",
+        "precio": "$ 8,250"
+    },
+    {
+        "codigo": "KIT115",
+        "rubro": "Varios",
+        "precio": "$ 9,438"
+    },
+    {
+        "codigo": "KITCEL",
+        "rubro": "Varios",
+        "precio": "$ 3,168"
+    },
+    {
+        "codigo": "NO6097A",
+        "rubro": "Varios",
+        "precio": "$ 8,646"
+    },
+    {
+        "codigo": "ADG-002",
+        "rubro": "Varios",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "Av47110",
+        "rubro": "Lamparas",
+        "precio": "$ 16,830"
+    },
+    {
+        "codigo": "LAMPMOS",
+        "rubro": "HOGAR",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "P18W",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 4,752"
+    },
+    {
+        "codigo": "3DPEN",
+        "rubro": "Varios",
+        "precio": "$ 13,134"
+    },
+    {
+        "codigo": "LAOPT",
+        "rubro": "Varios",
+        "precio": "$ 686"
+    },
+    {
+        "codigo": "LAP23",
+        "rubro": "Varios",
+        "precio": "$ 528"
+    },
+    {
+        "codigo": "NM-LC401",
+        "rubro": "Varios",
+        "precio": "$ 39,650"
+    },
+    {
+        "codigo": "CR-311",
+        "rubro": "Adaptadores",
+        "precio": "$ 396"
+    },
+    {
+        "codigo": "CR-151",
+        "rubro": "Adaptadores",
+        "precio": "$ 1,188"
+    },
+    {
+        "codigo": "LC-5000",
+        "rubro": "Cargador Auto V8",
+        "precio": "$ 2,270"
+    },
+    {
+        "codigo": "OR-1004",
+        "rubro": "HOGAR",
+        "precio": "$ 48,840"
+    },
+    {
+        "codigo": "YE-01",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 9,504"
+    },
+    {
+        "codigo": "HH-02",
+        "rubro": "Cocina",
+        "precio": "$ 16,500"
+    },
+    {
+        "codigo": "LED4",
+        "rubro": "Linterna",
+        "precio": "$ 3,604"
+    },
+    {
+        "codigo": "LED7",
+        "rubro": "Linterna",
+        "precio": "$ 4,633"
+    },
+    {
+        "codigo": "JS-911A",
+        "rubro": "Linterna",
+        "precio": "$ 3,366"
+    },
+    {
+        "codigo": "911A",
+        "rubro": "Linterna",
+        "precio": "$ 2,508"
+    },
+    {
+        "codigo": "AV-2955",
+        "rubro": "Linterna",
+        "precio": "$ 4,858"
+    },
+    {
+        "codigo": "OA-IL536",
+        "rubro": "Luz de emergencia",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "OA-IL537",
+        "rubro": "Luz de emergencia",
+        "precio": "$ 8,923"
+    },
+    {
+        "codigo": "LUZBI",
+        "rubro": "Luz para bici",
+        "precio": "$ 1,782"
+    },
+    {
+        "codigo": "LUZSOL",
+        "rubro": "Luz para bici",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "SL-182",
+        "rubro": "Varios",
+        "precio": "$ 18,876"
+    },
+    {
+        "codigo": "MAGSAFE",
+        "rubro": "Cargador Inalambrico y u",
+        "precio": "$ 6,204"
+    },
+    {
+        "codigo": "OA-ED009",
+        "rubro": "Cocina",
+        "precio": "$ 27,456"
+    },
+    {
+        "codigo": "PA-08018",
+        "rubro": "Varios",
+        "precio": "$ 36,036"
+    },
+    {
+        "codigo": "HLS-T08",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 8,237"
+    },
+    {
+        "codigo": "MATE",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "XC-01",
+        "rubro": "Fiesta",
+        "precio": "$ 11,154"
+    },
+    {
+        "codigo": "SDC-128G",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 12,606"
+    },
+    {
+        "codigo": "SDC-16G",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 5,518"
+    },
+    {
+        "codigo": "SDC-32G",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 6,600"
+    },
+    {
+        "codigo": "SDC-64G",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 7,564"
+    },
+    {
+        "codigo": "MEM32",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 5,280"
+    },
+    {
+        "codigo": "MEM8",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "SM-338",
+        "rubro": "Microfono",
+        "precio": "$ 3,432"
+    },
+    {
+        "codigo": "NM-MC7",
+        "rubro": "Microfono",
+        "precio": "$ 5,200"
+    },
+    {
+        "codigo": "TN-15C",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 3,510"
+    },
+    {
+        "codigo": "K8",
+        "rubro": "Microfono",
+        "precio": "$ 10,956"
+    },
+    {
+        "codigo": "K9IPH",
+        "rubro": "Microfono",
+        "precio": "$ 7,920"
+    },
+    {
+        "codigo": "K9TC",
+        "rubro": "Microfono",
+        "precio": "$ 7,920"
+    },
+    {
+        "codigo": "KS-0271",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 15,840"
+    },
+    {
+        "codigo": "AS228",
+        "rubro": "Varios",
+        "precio": "$ 6,006"
+    },
+    {
+        "codigo": "620CON",
+        "rubro": "Consolas",
+        "precio": "$ 15,180"
+    },
+    {
+        "codigo": "PRINT",
+        "rubro": "Varios",
+        "precio": "$ 15,972"
+    },
+    {
+        "codigo": "MO3864",
+        "rubro": "Masajeador",
+        "precio": "$ 8,131"
+    },
+    {
+        "codigo": "NF-8001",
+        "rubro": "Cocina",
+        "precio": "$ 14,652"
+    },
+    {
+        "codigo": "SO-618A",
+        "rubro": "Cocina",
+        "precio": "$ 16,302"
+    },
+    {
+        "codigo": "MY-011",
+        "rubro": "HOGAR",
+        "precio": "$ 11,220"
+    },
+    {
+        "codigo": "ACF-10",
+        "rubro": "Varios",
+        "precio": "$ 22,308"
+    },
+    {
+        "codigo": "PM-USB-001",
+        "rubro": "Cable V8 - Micro",
+        "precio": "$ 1,690"
+    },
+    {
+        "codigo": "NM-8300",
+        "rubro": "Cocina",
+        "precio": "$ 8,923"
+    },
+    {
+        "codigo": "AP-COM002",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 1,848"
+    },
+    {
+        "codigo": "MS1027",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 4,966"
+    },
+    {
+        "codigo": "MIG-117",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 4,875"
+    },
+    {
+        "codigo": "MOG-107",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 2,210"
+    },
+    {
+        "codigo": "HBL-MO202",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 1,650"
+    },
+    {
+        "codigo": "MIG-123",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 4,940"
+    },
+    {
+        "codigo": "M680",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 7,410"
+    },
+    {
+        "codigo": "M630",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 4,290"
+    },
+    {
+        "codigo": "MF100",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 2,483"
+    },
+    {
+        "codigo": "PAD-212N",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 6,349"
+    },
+    {
+        "codigo": "HBL-PAD01",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 5,940"
+    },
+    {
+        "codigo": "NM-PGEL",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 7,670"
+    },
+    {
+        "codigo": "MP860",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 5,915"
+    },
+    {
+        "codigo": "PAD-100",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 1,430"
+    },
+    {
+        "codigo": "PADXL",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 6,760"
+    },
+    {
+        "codigo": "M640",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 8,034"
+    },
+    {
+        "codigo": "AI-066",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 3,696"
+    },
+    {
+        "codigo": "NM-ERGO",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 20,475"
+    },
+    {
+        "codigo": "ADPMULT",
+        "rubro": "Adaptadores",
+        "precio": "$ 2,112"
+    },
+    {
+        "codigo": "HUT",
+        "rubro": "Adaptadores",
+        "precio": "$ 1,980"
+    },
+    {
+        "codigo": "RT-OT06",
+        "rubro": "Adaptadores",
+        "precio": "$ 3,432"
+    },
+    {
+        "codigo": "YHL-T3",
+        "rubro": "Adaptadores",
+        "precio": "$ 488"
+    },
+    {
+        "codigo": "RAYAAA",
+        "rubro": "Pilas",
+        "precio": "$ 16,896"
+    },
+    {
+        "codigo": "RAYAA",
+        "rubro": "Pilas",
+        "precio": "$ 10,560"
+    },
+    {
+        "codigo": "OR-0156",
+        "rubro": "Pilas",
+        "precio": "$ 7,260"
+    },
+    {
+        "codigo": "AA60",
+        "rubro": "Pilas",
+        "precio": "$ 7,550"
+    },
+    {
+        "codigo": "Q07",
+        "rubro": "Varios",
+        "precio": "$ 4,290"
+    },
+    {
+        "codigo": "5059R",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 3,960"
+    },
+    {
+        "codigo": "QL-1212",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 62,436"
+    },
+    {
+        "codigo": "RAUS-63821",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 118,800"
+    },
+    {
+        "codigo": "SP-1542-5A",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 101,640"
+    },
+    {
+        "codigo": "KTS-1057",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 6,600"
+    },
+    {
+        "codigo": "LS-1023",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 6,600"
+    },
+    {
+        "codigo": "AI-8980",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 6,072"
+    },
+    {
+        "codigo": "K12",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 9,398"
+    },
+    {
+        "codigo": "GTS-1867",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 7,458"
+    },
+    {
+        "codigo": "AI83",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 4,488"
+    },
+    {
+        "codigo": "NL91",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 16,302"
+    },
+    {
+        "codigo": "H006",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "H007",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 9,240"
+    },
+    {
+        "codigo": "BST-G102",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 8,250"
+    },
+    {
+        "codigo": "ZQS1202",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 5,280"
+    },
+    {
+        "codigo": "GTS-1373",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 7,458"
+    },
+    {
+        "codigo": "LTM-168A",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 6,864"
+    },
+    {
+        "codigo": "PORTABLL",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 7,590"
+    },
+    {
+        "codigo": "MASUYA",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 32,604"
+    },
+    {
+        "codigo": "WS-887",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 4,422"
+    },
+    {
+        "codigo": "SHWR-SPKR",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "CLIP5",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 10,296"
+    },
+    {
+        "codigo": "CO3",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 10,164"
+    },
+    {
+        "codigo": "FLIP5",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 21,648"
+    },
+    {
+        "codigo": "SK11",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 10,164"
+    },
+    {
+        "codigo": "WS858",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 6,006"
+    },
+    {
+        "codigo": "LEAL",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 9,372"
+    },
+    {
+        "codigo": "NM-9025",
+        "rubro": "Parlante PC",
+        "precio": "$ 8,450"
+    },
+    {
+        "codigo": "BORA",
+        "rubro": "Parlante PC",
+        "precio": "$ 15,972"
+    },
+    {
+        "codigo": "SP-HF180",
+        "rubro": "Parlante PC",
+        "precio": "$ 15,730"
+    },
+    {
+        "codigo": "RS-2409",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 21,120"
+    },
+    {
+        "codigo": "RP-8102",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 26,400"
+    },
+    {
+        "codigo": "AI-CK4",
+        "rubro": "Parlante PC",
+        "precio": "$ 3,630"
+    },
+    {
+        "codigo": "SK-16023",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 15,708"
+    },
+    {
+        "codigo": "SK-16030",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 14,520"
+    },
+    {
+        "codigo": "HST9",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "LAMPAT",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "T9",
+        "rubro": "Cortadora de cabello y p",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "TC-02",
+        "rubro": "Pava",
+        "precio": "$ 15,180"
+    },
+    {
+        "codigo": "BR-20A",
+        "rubro": "Pava",
+        "precio": "$ 10,230"
+    },
+    {
+        "codigo": "PAV1",
+        "rubro": "Pava",
+        "precio": "$ 11,748"
+    },
+    {
+        "codigo": "TC-00",
+        "rubro": "Pava",
+        "precio": "$ 12,540"
+    },
+    {
+        "codigo": "TC-01",
+        "rubro": "Pava",
+        "precio": "$ 14,256"
+    },
+    {
+        "codigo": "YS-2008",
+        "rubro": "Pava",
+        "precio": "$ 13,728"
+    },
+    {
+        "codigo": "E87",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,188"
+    },
+    {
+        "codigo": "FUTB",
+        "rubro": "Varios",
+        "precio": "$ 4,884"
+    },
+    {
+        "codigo": "CAPIB",
+        "rubro": "Varios",
+        "precio": "$ 15,444"
+    },
+    {
+        "codigo": "SDC-Z50",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 12,606"
+    },
+    {
+        "codigo": "DTI-16GB",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 5,518"
+    },
+    {
+        "codigo": "DTX-64GB",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 7,564"
+    },
+    {
+        "codigo": "DTI-32GB",
+        "rubro": "Memeorias y pendrives",
+        "precio": "$ 6,600"
+    },
+    {
+        "codigo": "3B1",
+        "rubro": "Cocina",
+        "precio": "$ 24,024"
+    },
+    {
+        "codigo": "1220",
+        "rubro": "Pilas",
+        "precio": "$ 2,521"
+    },
+    {
+        "codigo": "2016",
+        "rubro": "Pilas",
+        "precio": "$ 1,848"
+    },
+    {
+        "codigo": "2025",
+        "rubro": "Pilas",
+        "precio": "$ 1,848"
+    },
+    {
+        "codigo": "2032",
+        "rubro": "Pilas",
+        "precio": "$ 1,848"
+    },
+    {
+        "codigo": "2032N",
+        "rubro": "Pilas",
+        "precio": "$ 2,376"
+    },
+    {
+        "codigo": "23A",
+        "rubro": "Pilas",
+        "precio": "$ 2,376"
+    },
+    {
+        "codigo": "FUL9V",
+        "rubro": "Pilas",
+        "precio": "$ 1,950"
+    },
+    {
+        "codigo": "LR6",
+        "rubro": "Pilas",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "NP-AAM",
+        "rubro": "Pilas",
+        "precio": "$ 6,890"
+    },
+    {
+        "codigo": "FLLAA",
+        "rubro": "Pilas",
+        "precio": "$ 1,820"
+    },
+    {
+        "codigo": "LR03",
+        "rubro": "Pilas",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "NP-AAAM",
+        "rubro": "Pilas",
+        "precio": "$ 5,016"
+    },
+    {
+        "codigo": "FLLAAA",
+        "rubro": "Pilas",
+        "precio": "$ 1,820"
+    },
+    {
+        "codigo": "SD-LR41",
+        "rubro": "Pilas",
+        "precio": "$ 1,122"
+    },
+    {
+        "codigo": "LR1130",
+        "rubro": "Pilas",
+        "precio": "$ 1,254"
+    },
+    {
+        "codigo": "LR44",
+        "rubro": "Pilas",
+        "precio": "$ 1,122"
+    },
+    {
+        "codigo": "10",
+        "rubro": "Pilas",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "312",
+        "rubro": "Pilas",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "675",
+        "rubro": "Pilas",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "BUBBLE",
+        "rubro": "Varios",
+        "precio": "$ 7,722"
+    },
+    {
+        "codigo": "PIZ10",
+        "rubro": "Varios",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "PIZ12",
+        "rubro": "Varios",
+        "precio": "$ 3,630"
+    },
+    {
+        "codigo": "PIZ8",
+        "rubro": "Varios",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "NM-PM103",
+        "rubro": "Varios",
+        "precio": "$ 10,428"
+    },
+    {
+        "codigo": "TMPAS8410",
+        "rubro": "Adaptadores",
+        "precio": "$ 2,310"
+    },
+    {
+        "codigo": "PP12",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 4,950"
+    },
+    {
+        "codigo": "AW-2000",
+        "rubro": "HOGAR",
+        "precio": "$ 22,308"
+    },
+    {
+        "codigo": "895",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 6,402"
+    },
+    {
+        "codigo": "PP17",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 7,260"
+    },
+    {
+        "codigo": "OA-CP203",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 9,438"
+    },
+    {
+        "codigo": "PLNOSR",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 10,560"
+    },
+    {
+        "codigo": "NHC-1818SC",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 11,220"
+    },
+    {
+        "codigo": "POPIT",
+        "rubro": "Varios",
+        "precio": "$ 3,960"
+    },
+    {
+        "codigo": "SUBE",
+        "rubro": "Varios",
+        "precio": "$ 1,452"
+    },
+    {
+        "codigo": "PROTC2",
+        "rubro": "Cables TC",
+        "precio": "$ 1,690"
+    },
+    {
+        "codigo": "OA-IL521",
+        "rubro": "Fiesta",
+        "precio": "$ 17,160"
+    },
+    {
+        "codigo": "PROY",
+        "rubro": "Varios",
+        "precio": "$ 112,200"
+    },
+    {
+        "codigo": "XL-731",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 22,308"
+    },
+    {
+        "codigo": "CLATY",
+        "rubro": "Puntero Laser",
+        "precio": "$ 3,630"
+    },
+    {
+        "codigo": "LASPIL",
+        "rubro": "Varios",
+        "precio": "$ 4,290"
+    },
+    {
+        "codigo": "M81BTS",
+        "rubro": "Radio",
+        "precio": "$ 12,540"
+    },
+    {
+        "codigo": "HT-2307",
+        "rubro": "Parlante inalambrico",
+        "precio": "$ 17,160"
+    },
+    {
+        "codigo": "HBL-RA01",
+        "rubro": "Radio",
+        "precio": "$ 23,760"
+    },
+    {
+        "codigo": "HBL-RA02",
+        "rubro": "Radio",
+        "precio": "$ 23,760"
+    },
+    {
+        "codigo": "ICF-8",
+        "rubro": "Radio",
+        "precio": "$ 8,184"
+    },
+    {
+        "codigo": "OR-1649",
+        "rubro": "Radio",
+        "precio": "$ 20,460"
+    },
+    {
+        "codigo": "AICA122N",
+        "rubro": "Adaptadores",
+        "precio": "$ 1,980"
+    },
+    {
+        "codigo": "WI50",
+        "rubro": "Adaptadores",
+        "precio": "$ 1,584"
+    },
+    {
+        "codigo": "AWI-548",
+        "rubro": "Adaptadores",
+        "precio": "$ 6,468"
+    },
+    {
+        "codigo": "DIT5",
+        "rubro": "Cables Varios",
+        "precio": "$ 1,716"
+    },
+    {
+        "codigo": "WIFI20",
+        "rubro": "Adaptadores",
+        "precio": "$ 2,878"
+    },
+    {
+        "codigo": "ESSENTIAL",
+        "rubro": "Auriculares inalambricos",
+        "precio": "$ 18,018"
+    },
+    {
+        "codigo": "FT-2",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 8,778"
+    },
+    {
+        "codigo": "FT-1",
+        "rubro": "Focos y reflectores",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "VITALITY",
+        "rubro": "Relojes",
+        "precio": "$ 32,500"
+    },
+    {
+        "codigo": "Y58",
+        "rubro": "Relojes",
+        "precio": "$ 18,876"
+    },
+    {
+        "codigo": "ACTION",
+        "rubro": "Relojes",
+        "precio": "$ 24,570"
+    },
+    {
+        "codigo": "M5",
+        "rubro": "Relojes",
+        "precio": "$ 4,092"
+    },
+    {
+        "codigo": "BENEFIT",
+        "rubro": "Relojes",
+        "precio": "$ 28,990"
+    },
+    {
+        "codigo": "S9ULTRA2",
+        "rubro": "Relojes",
+        "precio": "$ 13,398"
+    },
+    {
+        "codigo": "T24",
+        "rubro": "Relojes",
+        "precio": "$ 13,728"
+    },
+    {
+        "codigo": "LAXASFIT",
+        "rubro": "Relojes",
+        "precio": "$ 17,160"
+    },
+    {
+        "codigo": "W26",
+        "rubro": "Relojes",
+        "precio": "$ 13,860"
+    },
+    {
+        "codigo": "C900",
+        "rubro": "Relojes",
+        "precio": "$ 14,652"
+    },
+    {
+        "codigo": "H98ULTRA",
+        "rubro": "Relojes",
+        "precio": "$ 14,652"
+    },
+    {
+        "codigo": "KK-9905TS",
+        "rubro": "HOGAR",
+        "precio": "$ 2,376"
+    },
+    {
+        "codigo": "LCDCLOCK",
+        "rubro": "Varios",
+        "precio": "$ 8,408"
+    },
+    {
+        "codigo": "ELITE",
+        "rubro": "Relojes",
+        "precio": "$ 31,680"
+    },
+    {
+        "codigo": "ENERGY",
+        "rubro": "Relojes",
+        "precio": "$ 40,560"
+    },
+    {
+        "codigo": "EVO800",
+        "rubro": "Relojes",
+        "precio": "$ 65,000"
+    },
+    {
+        "codigo": "EVOLUTION",
+        "rubro": "Relojes",
+        "precio": "$ 33,540"
+    },
+    {
+        "codigo": "HBL-FIT6",
+        "rubro": "Relojes",
+        "precio": "$ 4,884"
+    },
+    {
+        "codigo": "M6",
+        "rubro": "Relojes",
+        "precio": "$ 4,092"
+    },
+    {
+        "codigo": "NM-PLUS",
+        "rubro": "Relojes",
+        "precio": "$ 19,500"
+    },
+    {
+        "codigo": "POWER",
+        "rubro": "Relojes",
+        "precio": "$ 27,560"
+    },
+    {
+        "codigo": "EVO400",
+        "rubro": "Relojes",
+        "precio": "$ 36,400"
+    },
+    {
+        "codigo": "EVO600",
+        "rubro": "Relojes",
+        "precio": "$ 40,950"
+    },
+    {
+        "codigo": "EVO700",
+        "rubro": "Relojes",
+        "precio": "$ 59,150"
+    },
+    {
+        "codigo": "T800",
+        "rubro": "Relojes",
+        "precio": "$ 11,550"
+    },
+    {
+        "codigo": "WATCHCOL",
+        "rubro": "Relojes",
+        "precio": "$ 4,752"
+    },
+    {
+        "codigo": "WATCH8",
+        "rubro": "Relojes",
+        "precio": "$ 10,560"
+    },
+    {
+        "codigo": "RING89",
+        "rubro": "Varios",
+        "precio": "$ 726"
+    },
+    {
+        "codigo": "RINGO",
+        "rubro": "Varios",
+        "precio": "$ 1,209"
+    },
+    {
+        "codigo": "ROK",
+        "rubro": "Convertidor Smart",
+        "precio": "$ 63,360"
+    },
+    {
+        "codigo": "NCR-N301-A",
+        "rubro": "Extensor y Router",
+        "precio": "$ 31,200"
+    },
+    {
+        "codigo": "MW325R",
+        "rubro": "Extensor y Router",
+        "precio": "$ 31,200"
+    },
+    {
+        "codigo": "TL-WR820N",
+        "rubro": "Extensor y Router",
+        "precio": "$ 27,040"
+    },
+    {
+        "codigo": "S21+",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,584"
+    },
+    {
+        "codigo": "SY-101",
+        "rubro": "Auriculares con Cable",
+        "precio": "$ 1,320"
+    },
+    {
+        "codigo": "OR1211",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 20,460"
+    },
+    {
+        "codigo": "HT-2026",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 10,296"
+    },
+    {
+        "codigo": "HT-9007",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 10,296"
+    },
+    {
+        "codigo": "AIHG250712",
+        "rubro": "Secador, cepillo alisado",
+        "precio": "$ 6,943"
+    },
+    {
+        "codigo": "SELL",
+        "rubro": "Varios",
+        "precio": "$ 21,450"
+    },
+    {
+        "codigo": "NM-MC18",
+        "rubro": "Microfono",
+        "precio": "$ 22,770"
+    },
+    {
+        "codigo": "CARG7",
+        "rubro": "Accesorios para auto",
+        "precio": "$ 3,432"
+    },
+    {
+        "codigo": "X8",
+        "rubro": "Accesorios para auto",
+        "precio": "$ 2,904"
+    },
+    {
+        "codigo": "WD-62",
+        "rubro": "Varios",
+        "precio": "$ 2,574"
+    },
+    {
+        "codigo": "SOPMIC",
+        "rubro": "Microfono",
+        "precio": "$ 6,930"
+    },
+    {
+        "codigo": "AIST030568N",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,092"
+    },
+    {
+        "codigo": "NM-HC42",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 13,530"
+    },
+    {
+        "codigo": "NM-HC20",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 6,240"
+    },
+    {
+        "codigo": "HOLLAR",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 2,112"
+    },
+    {
+        "codigo": "ET10133",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "AIST030306N",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,092"
+    },
+    {
+        "codigo": "K-911",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "SK-H37",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 2,402"
+    },
+    {
+        "codigo": "A052",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "A114",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "F-SP-06",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,686"
+    },
+    {
+        "codigo": "F-SP011",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 5,544"
+    },
+    {
+        "codigo": "F-SP04",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,633"
+    },
+    {
+        "codigo": "SMES",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 1,716"
+    },
+    {
+        "codigo": "F-SP18",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,633"
+    },
+    {
+        "codigo": "RAUS-60279",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 1,584"
+    },
+    {
+        "codigo": "MG08",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,686"
+    },
+    {
+        "codigo": "SK-HOLDER33",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,699"
+    },
+    {
+        "codigo": "SK-HOLDER31",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 3,960"
+    },
+    {
+        "codigo": "SK-HOLDER32",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 3,960"
+    },
+    {
+        "codigo": "MAGNCAR",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 2,402"
+    },
+    {
+        "codigo": "F-SP-017",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,356"
+    },
+    {
+        "codigo": "NO-S282",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 2,059"
+    },
+    {
+        "codigo": "ZXC6-3",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,805"
+    },
+    {
+        "codigo": "CZ-202",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 2,640"
+    },
+    {
+        "codigo": "E15",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 3,432"
+    },
+    {
+        "codigo": "NM-HC14",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 4,095"
+    },
+    {
+        "codigo": "ET10210",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "BC-T39",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 5,148"
+    },
+    {
+        "codigo": "REJ569",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 2,376"
+    },
+    {
+        "codigo": "REG",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 462"
+    },
+    {
+        "codigo": "AR02",
+        "rubro": "Soporte TV",
+        "precio": "$ 3,300"
+    },
+    {
+        "codigo": "AR03",
+        "rubro": "Soporte TV",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "HDL-117B-2",
+        "rubro": "Soporte TV",
+        "precio": "$ 8,976"
+    },
+    {
+        "codigo": "USB-CLTC",
+        "rubro": "Cables TC",
+        "precio": "$ 2,015"
+    },
+    {
+        "codigo": "FLATCIP",
+        "rubro": "Cables iPhone",
+        "precio": "$ 4,250"
+    },
+    {
+        "codigo": "HDTV14",
+        "rubro": "Adaptadores",
+        "precio": "$ 8,448"
+    },
+    {
+        "codigo": "1003",
+        "rubro": "Cargador de Notebook Y f",
+        "precio": "$ 9,108"
+    },
+    {
+        "codigo": "NM-HORIZON-PRO",
+        "rubro": "Varios",
+        "precio": "$ 123,500"
+    },
+    {
+        "codigo": "FK1000",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 20,064"
+    },
+    {
+        "codigo": "NM-GC479",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 23,296"
+    },
+    {
+        "codigo": "KBG-206",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 5,070"
+    },
+    {
+        "codigo": "MW200",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 17,810"
+    },
+    {
+        "codigo": "NM-KB620",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 18,629"
+    },
+    {
+        "codigo": "NM-KB850",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 24,245"
+    },
+    {
+        "codigo": "NM-KB586U",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 6,370"
+    },
+    {
+        "codigo": "NM-KB250",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 8,320"
+    },
+    {
+        "codigo": "CBG-025N",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 14,560"
+    },
+    {
+        "codigo": "NM-KB650",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 29,900"
+    },
+    {
+        "codigo": "KGG-013",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 31,200"
+    },
+    {
+        "codigo": "CBG-026N",
+        "rubro": "Articulos de Pc",
+        "precio": "$ 14,196"
+    },
+    {
+        "codigo": "HBL-PHN01",
+        "rubro": "Telefono",
+        "precio": "$ 40,392"
+    },
+    {
+        "codigo": "HBL-PH03",
+        "rubro": "Telefono",
+        "precio": "$ 20,618"
+    },
+    {
+        "codigo": "OHO-505",
+        "rubro": "Telefono",
+        "precio": "$ 6,072"
+    },
+    {
+        "codigo": "B369",
+        "rubro": "Telefono",
+        "precio": "$ 22,425"
+    },
+    {
+        "codigo": "HBL-PHIN01",
+        "rubro": "Telefono",
+        "precio": "$ 43,692"
+    },
+    {
+        "codigo": "TENDER",
+        "rubro": "HOGAR",
+        "precio": "$ 27,456"
+    },
+    {
+        "codigo": "BAL",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "OFF1",
+        "rubro": "OFERTAS",
+        "precio": "$ 15,840"
+    },
+    {
+        "codigo": "OFF2",
+        "rubro": "OFERTAS",
+        "precio": "$ 13,200"
+    },
+    {
+        "codigo": "TERM",
+        "rubro": "Termometro",
+        "precio": "$ 1,254"
+    },
+    {
+        "codigo": "DB-1",
+        "rubro": "Camaras",
+        "precio": "$ 15,708"
+    },
+    {
+        "codigo": "TMBENC",
+        "rubro": "HOGAR",
+        "precio": "$ 4,950"
+    },
+    {
+        "codigo": "NEONBL",
+        "rubro": "Tiras Led y Neon",
+        "precio": "$ 8,250"
+    },
+    {
+        "codigo": "JYS-3021",
+        "rubro": "Tiras Led y Neon",
+        "precio": "$ 10,124"
+    },
+    {
+        "codigo": "JSY-1230",
+        "rubro": "Tiras Led y Neon",
+        "precio": "$ 7,722"
+    },
+    {
+        "codigo": "PANAAATIR",
+        "rubro": "Pilas",
+        "precio": "$ 6,204"
+    },
+    {
+        "codigo": "5050MM",
+        "rubro": "Tiras Led y Neon",
+        "precio": "$ 6,600"
+    },
+    {
+        "codigo": "DM-202",
+        "rubro": "Varios",
+        "precio": "$ 34,320"
+    },
+    {
+        "codigo": "M2000",
+        "rubro": "Varios",
+        "precio": "$ 17,160"
+    },
+    {
+        "codigo": "SC118",
+        "rubro": "Cocina",
+        "precio": "$ 17,160"
+    },
+    {
+        "codigo": "TRIPODE",
+        "rubro": "Soporte Para Auto, Bici",
+        "precio": "$ 8,580"
+    },
+    {
+        "codigo": "TRIPOFLEX",
+        "rubro": "Varios",
+        "precio": "$ 1,320"
+    },
+    {
+        "codigo": "TV4K",
+        "rubro": "Convertidor Smart",
+        "precio": "$ 26,400"
+    },
+    {
+        "codigo": "TVSTICK",
+        "rubro": "Convertidor Smart",
+        "precio": "$ 29,766"
+    },
+    {
+        "codigo": "PA-3078",
+        "rubro": "HOGAR",
+        "precio": "$ 37,752"
+    },
+    {
+        "codigo": "VASPARL",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 12,368"
+    },
+    {
+        "codigo": "HD10031",
+        "rubro": "Termos, vasos y botellas",
+        "precio": "$ 10,692"
+    },
+    {
+        "codigo": "OA-IL528",
+        "rubro": "Varios",
+        "precio": "$ 6,336"
+    },
+    {
+        "codigo": "SS2",
+        "rubro": "Varios",
+        "precio": "$ 4,620"
+    },
+    {
+        "codigo": "DESK",
+        "rubro": "Varios",
+        "precio": "$ 5,016"
+    },
+    {
+        "codigo": "VENT",
+        "rubro": "Varios",
+        "precio": "$ 7,260"
+    },
+    {
+        "codigo": "VRBOX",
+        "rubro": "Varios",
+        "precio": "$ 5,016"
+    },
+    {
+        "codigo": "PRL15",
+        "rubro": "Zapatilla",
+        "precio": "$ 5,980"
+    },
+    {
+        "codigo": "PRL25",
+        "rubro": "Zapatilla",
+        "precio": "$ 7,800"
+    },
+    {
+        "codigo": "ZAP-1-3",
+        "rubro": "Zapatilla",
+        "precio": "$ 7,020"
+    },
+    {
+        "codigo": "T19",
+        "rubro": "Zapatilla",
+        "precio": "$ 16,368"
+    },
+    {
+        "codigo": "GEN1-5",
+        "rubro": "Zapatilla",
+        "precio": "$ 3,900"
+    },
+    {
+        "codigo": "GEN3",
+        "rubro": "Zapatilla",
+        "precio": "$ 5,980"
+    },
+    {
+        "codigo": "GEN5",
+        "rubro": "Zapatilla",
+        "precio": "$ 6,760"
+    },
+    {
+        "codigo": "ZAPHEX",
+        "rubro": "Zapatilla",
+        "precio": "$ 7,260"
+    },
+    {
+        "codigo": "ZAP15",
+        "rubro": "Zapatilla",
+        "precio": "$ 6,760"
+    },
+    {
+        "codigo": "ZAP3",
+        "rubro": "Zapatilla",
+        "precio": "$ 8,450"
+    },
+    {
+        "codigo": "ZAP5",
+        "rubro": "Zapatilla",
+        "precio": "$ 10,530"
+    }
+]
