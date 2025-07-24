@@ -777,7 +777,7 @@
 </script>
 
 <script>
-  const productosPorPagina = 40;
+  const productosPorPagina = 30;
   let paginaActual = 1;
 
   function mostrarProductos(pagina) {
@@ -788,11 +788,8 @@
       producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
     });
 
-    // Desplazar hasta el logo (opcional)
-    const logo = document.getElementById('logo');
-    if (logo) {
-      logo.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    // Scroll automático al inicio de la página
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 
     // Botones de paginación
     const paginacionDiv = document.getElementById('paginacion');
@@ -809,9 +806,10 @@
   }
 
   window.onload = function() {
-    mostrarProductos(paginaActual);
+    mostrarProductos(1);
   };
 </script>
+
   
 <script src="js/app.js"></script>
 </body>
