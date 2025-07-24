@@ -936,26 +936,6 @@ fetch("https://raw.githubusercontent.com/usuario/repositorio/main/productos.json
 <div><span id="onlineCount"></span></div>
 
 
-  <script>
-fetch('productos.json')
-  .then(res => res.json())
-  .then(data => {
-    const contenedor = document.getElementById('catalogo');
-    data.forEach(prod => {
-      contenedor.innerHTML += `
-        <div class="producto" style="border: 1px solid #ccc; padding: 10px; width: 200px;">
-          <img src="${prod.imagen}" alt="${prod.nombre}" style="width: 100%; height: auto;" />
-          <h3 style="font-size: 16px;">${prod.nombre}</h3>
-          <p style="font-weight: bold;">$${prod.precio}</p>
-        </div>
-      `;
-    });
-  })
-  .catch(() => {
-    document.getElementById('catalogo').innerHTML = "<p>No se pudo cargar el catálogo.</p>";
-  });
-</script>
-
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
   import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
