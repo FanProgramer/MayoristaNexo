@@ -987,7 +987,7 @@ fetch("https://raw.githubusercontent.com/usuario/repositorio/main/productos.json
   <div id="productos"></div>
 
 <script>
-fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/main/productos.json")
+  fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/main/productos.json")
   .then(res => {
     if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
     return res.json();
