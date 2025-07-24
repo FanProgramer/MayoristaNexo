@@ -1,4 +1,5 @@
 name: Actualizar catálogo
+name: Actualizar catálogo
 
 on:
   schedule:
@@ -31,3 +32,4 @@ jobs:
           git add productos.json
           git commit -m "🛒 Catálogo actualizado automáticamente"
           git push
+
