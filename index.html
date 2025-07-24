@@ -910,6 +910,29 @@
 
 <div><span id="onlineCount"></span></div>
 
+<div id="catalogo"></div>
+
+<script>
+  fetch('productos.json')
+    .then(res => res.json())
+    .then(data => {
+      const contenedor = document.getElementById('catalogo');
+      data.forEach(prod => {
+        contenedor.innerHTML += `
+          <div class="producto">
+            <img src="${prod.imagen}" alt="${prod.nombre}" />
+            <h3>${prod.nombre}</h3>
+            <p>Precio: $${prod.precio}</p>
+          </div>
+        `;
+      });
+    });
+</script>
+
+
+
+  
+
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
   import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
