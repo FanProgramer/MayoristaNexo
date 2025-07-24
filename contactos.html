@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - Mayorista NexoTech</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <a href="index.html"><img src="img/logo.png" alt="Mi Logo" /></a>
+  <nav>
+    <a href="index.html">Inicio</a> | 
+    <a href="contactos.html" class="activo">Contacto</a>
+  </nav>
+</header>
+
+<main style="padding: 20px; max-width: 600px; margin: auto;">
+  <h1>Contacto</h1>
+  <p>Podés contactarnos por cualquiera de estos medios:</p>
+
+  <ul>
+    <li><strong>Teléfono:</strong> +54 9 11 2898 0818</li>
+    <li><strong>Email:</strong> contacto@nexotech.com.ar</li>
+    <li><strong>Dirección:</strong> NexoTech direction</li>
+  </ul>
+
+  <h2>Formulario de contacto</h2>
+  <form action="mailto:contacto@nexotech.com.ar" method="post" enctype="text/plain">
+    <label for="nombre">Nombre:</label><br />
+    <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+    <label for="email">Correo electrónico:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="mensaje">Mensaje:</label><br />
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br /><br />
+
+    <button type="submit" class="btn">Enviar</button>
+  </form>
+</main>
+
+</body>
+</html>
