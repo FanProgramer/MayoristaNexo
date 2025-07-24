@@ -987,10 +987,11 @@ fetch("https://raw.githubusercontent.com/usuario/repositorio/main/productos.json
   <div id="productos"></div>
 
 <script>
-fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/master/productos.json")
-
-
-  .then(res => res.json())
+fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/main/productos.json")
+  .then(res => {
+    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+    return res.json();
+  })
   .then(data => {
     const contenedor = document.getElementById("productos");
     data.forEach(prod => {
@@ -1010,8 +1011,8 @@ fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/master/produ
   .catch(err => {
     console.error("Error al cargar productos:", err);
   });
-
 </script>
+
 
   
 <script src="js/app.js"></script>
