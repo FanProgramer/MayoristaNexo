@@ -66,18 +66,20 @@
   </style>
 </head>
 <body>
- 
-<input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarProductos()" />
 
-<div class="contenedor" id="lista-productos">
-  
 <header>
   <a href="#top"><img src="img/logo.png" alt="Mi Logo" /></a>
   <p class="leyenda-compra-minima">🛍️ Compra mínima $250.000</p>
   <p>Usl: <span id="onlineCount">0</span></p>
 </header>
+  
+<input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarProductos()" />
 
-  <div class="producto" data-stock="5" data-categoria="Cargadores">
+<div class="contenedor" id="lista-productos">
+
+  
+
+  <div class="producto" data-stock="5">
     <img src="img/20WIPHOB.jpg" alt="Cable Iphone" />
     <h2>Cargadores Iphone</h2>
     <p>35W TC y cable lightning a TC con pata</p>
@@ -89,7 +91,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5" data-categoria="Adaptadores">
+  <div class="producto" data-stock="5">
     <img src="IMG/HDMIDISPLAY.jpg" alt="Adaptadores" />
     <h2>Adaptadores</h2>
     <p>Adaptador HDMI a DisplayPort</p>
@@ -101,518 +103,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5" data-categoria="Afeitadoras">
-    <img src="IMG/DL-9215.jpg" alt="Afeitadora DL-9215" />
-    <h2>Afeitadora Daling</h2>
-    <p>Cortadora de cabello y p </p>
-    <p>Precio: $20,120</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad3" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Afeitadora Daling DL-9215', 20120, 'cantidad3', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Afeitadoras">
-    <img src="IMG/DL-9235.jpg" alt="Afeitadora DL-9235" />
-    <h2>Afeitadora Daling</h2>
-    <p>Cortadora de cabello y p </p>
-    <p>Precio: $15,520</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad4" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Afeitadora Daling DL-9235', 15520, 'cantidad4', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Afeitadoras">
-    <img src="IMG/RE2301.jpg" alt="Afeitadora Ogaan" />
-    <h2>Afeitadora Ogaan</h2>
-    <p>Cortadora de cabello y p </p>
-    <p>Precio: $14,375</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad5" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Afeitadora Ogaan RE2301', 14375, 'cantidad5', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/AIRPODS2.jpg" alt="Auricular Airpods 2" />
-    <h2>Auricular Airpods 2° gen</h2>
-    <p>Auricular inalambrico AIRPODS2</p>
-    <p>Precio: $18,900</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad6" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular inalambrico AIRPODS2', 18900, 'cantidad6', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Cargadores">
-    <img src="img/M-20C.jpg" alt="Cargador TC M-20C" />
-    <h2>Aitech 2,0 con un puerto USB</h2>
-    <p>Cargador TC M-20C</p>
-    <p>Precio: $3,000</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad7" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Cargador TC M-20C', 3000, 'cantidad7', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="cocina">
-    <img src="img/AD-C301A.jpg" alt="Anafe Doble de 2 hornillas" />
-    <h2>Anafe Doble de 2 hornallas</h2>
-    <p>Anafe Doble AD-C301A</p>
-    <p>Precio: $25,918</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad8" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Anafe Doble AD-C301A', 25918, 'cantidad8', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Accesorios">
-    <img src="img/MJ-30.jpg" alt="Aro de 30cm con luz blanca y de colores + tripode" />
-    <h2>Aro de 30cm con luz blanca y de colores + tripode</h2>
-    <p>Aro de 30 CM MJ-30</p>
-    <p>Precio: $19,820</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad9" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Aro de 30 CM MJ-30', 19820, 'cantidad9', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Cocina">
-    <img src="img/HT-100A.jpg" alt="Anafe Simple" />
-    <h2>Anafe Simple</h2>
-    <p>Anafe 1 hornalla HT-100A</p>
-    <p>Precio: $15,540</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad10" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Anafe 1 hornalla HT-100A', 15540, 'cantidad10', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Accesorios">
-    <img src="img/AWI-200.jpg" alt="Antena Wifi 900Mbps. 2.0" />
-    <h2>Antena Wifi 900Mbps. 2.0</h2>
-    <p>Adaptador Wifi AWI-200</p>
-    <p>Precio: $5,485</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad11" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Adaptador Wifi AWI-200', 5485, 'cantidad11', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5">
-    <img src="img/MD-16.jpg" alt="Accesorios" />
-    <h2>Aspiradora portatil</h2>
-    <p>Aspiradora portatil MD-16</p>
-    <p>Precio: $24,480</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad12" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Adaptador Wifi AWI-200', 24480, 'cantidad12', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Parlantes">
-    <img src="img/ASPARL.jpg" alt="Astronauta con Parlante" />
-    <h2>Astronauta con Parlante</h2>
-    <p>Parlante Portatil Astronauta ASPARL</p>
-    <p>Precio: $22,800</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad13" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Parlante Portatil Astronauta ASPARL', 22800, 'cantidad13', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/I12.jpg" alt="Auriculares bluetooh" />
-    <h2>Auriculares bluetooh</h2>
-    <p>Auricular Inalambrico i12</p>
-    <p>Precio: $4,998</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    
-    <!-- Selección de color -->
-  <label for="color14">Color:</label>
-  <select id="color14">
-    <option value="Gris">Gris</option>
-    <option value="Rosado">Rosado</option>
-    <option value="Celeste">Celeste</option>
-    <option value="Amarillo">Amarillo</option>
-    <option value="Negro">Negro</option>
-    <option value="Blanco">Blanco</option>
-    <option value="Azul Dark">Azul Dark</option>
-    <option value="Verde">Verde</option>
-  </select>
-    
-    <br>
-    Cantidad:
-    <input type="number" id="cantidad14" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico i12', 4998, 'cantidad14', 100, 'color14')">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/AI-19.jpg" alt="Auricular Aitech" />
-    <h2>Auricular Aitech</h2>
-    <p>Auricular Vincha con Cable AI-19</p>
-    <p>Precio: $7,000</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad15" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Vincha con Cable AI-19', 7000, 'cantidad15', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/Akg32.jpg" alt="Auricular AKG manos libres" />
-    <h2>Auricular AKG manos libres</h2>
-    <p>Auricular AKG SAMSUNG AKG32</p>
-    <p>Precio: $2,499</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad16" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular AKG SAMSUNG AKG32', 2499, 'cantidad16', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/AKGTC.jpg" alt="Auricular AKG Type-C" />
-    <h2>Auricular AKG Type-C</h2>
-    <p>Auricular AKG SAMSUNG type-c AKGTC</p>
-    <p>Precio: $3,999</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad17" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular AKG SAMSUNG type-c AKGTC', 3999, 'cantidad17', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/MOD91.jpg" alt="Auricular Bluetooth" />
-    <h2>Auricular Bluetooth</h2>
-    <p>Auriculares vincha inalá MOD91</p>
-    <p>Precio: $7,148</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad18" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auriculares vincha inalá MOD91', 7148, 'cantidad18', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/BOC32.jpg" alt="Auricular Boca manos libres" />
-    <h2>Auricular Boca manos libres</h2>
-    <p>Auriculares Boca BOC32</p>
-    <p>Precio: $2,500</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad19" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auriculares Boca BOC32', 2500, 'cantidad19', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/BUDS.jpg" alt="Auricular Buds+" />
-    <h2>Auricular Buds+</h2>
-    <p>Auricular Inalambrico BUDS</p>
-    <p>Precio: $17,498</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad20" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico BUDS', 17498, 'cantidad20', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/P47.jpg" alt="Auricular Inalambrico con manos libres y radio" />
-    <h2>Auriculares Vincha Inalá</h2>
-    <p>Auricular Inalambrico P47</p>
-    <p>Precio: $7,498</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    
-    <!-- Selección de color -->
-  <label for="color21">Color:</label>
-  <select id="color21">
-    <option value="Rojo">Rojo</option>
-    <option value="Negro">Negro</option>
-    <option value="Blanco">Blanco</option>
-    <option value="Amarillo">Amarillo</option>
-    <option value="Azul">Azul</option>
-  </select>
-    
-    <br>
-    Cantidad:
-    <input type="number" id="cantidad21" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico P47', 7498, 'cantidad21', 100, 'color21')">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/P47M.jpg" alt="Auricular inalambrico con orejitas" />
-    <h2>Auriculares Vincha Inalá</h2>
-    <p>Auricular Inalambrico P47M</p>
-    <p>Precio: $7,498</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    
-    <!-- Selección de color -->
-  <label for="color22">Color:</label>
-  <select id="color22">
-    <option value="Negro">Negro</option>
-    <option value="Celeste">Celeste</option>
-    <option value="Gris">Gris</option>
-    <option value="Verde oscuro">Verde oscuro</option>
-    <option value="Rosado">Rosado</option>
-  </select>
-    
-    <br>
-    Cantidad:
-    <input type="number" id="cantidad22" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico P47', 7498, 'cantidad22', 100, 'color22')">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/BUDS3.jpg" alt="Auricular Inalambrico BUDS3 LITE" />
-    <h2>Auricular Inalambrico BUDS3 LITE</h2>
-    <p>Auricular Inalambrico BUDS3</p>
-    <p>Precio: $24,000</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad23" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico BUDS3', 24000, 'cantidad23', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/BUDS2PRO.jpg" alt="Auricular inalambrico Galaxy Buds Pro Samsung" />
-    <h2>Auricular inalambrico Galaxy Buds Pro Samsung</h2>
-    <p>Auricular Inalambrico BUDS2PRO</p>
-    <p>Precio: $18,500</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad24" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico BUDS2PRO', 18500, 'cantidad24', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/TUNE2691.jpg" alt="Auricular Inalambrico JBL Vincha" />
-    <h2>Auricular Inalambrico JBL Vincha</h2>
-    <p>Auricular Inalambrico JBL Tune-2691</p>
-    <p>Precio: $19,256</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad25" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico JBL Tune-2691', 19256, 'cantidad25', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/TUNE760.jpg" alt="Auricular Inalambrico JBL Vincha" />
-    <h2>Auricular Inalambrico JBL Vincha</h2>
-    <p>Auricular Inalambrico JBL Tune-760</p>
-    <p>Precio: $19,256</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad26" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico JBL Tune-760', 19256, 'cantidad26', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/PM-TUNE760.jpg" alt="Auricular Inalambrico Mobile" />
-    <h2>Auricular Inalambrico Mobile</h2>
-    <p>Auricular Inalambrico PM-TUNE760</p>
-    <p>Precio: $20,000</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad27" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico PM-TUNE760', 20000, 'cantidad27', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/NM-LIVE.jpg" alt="Auricular Inalambrico Netmak" />
-    <h2>Auricular Inalambrico Netmak</h2>
-    <p>Auricular Inalambrico Netmak NM-LIVE</p>
-    <p>Precio: $21,250</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad28" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico Netmak NM-LIVE', 21250, 'cantidad28', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="img/P9.jpg" alt="Auricular inalambrico P9" />
-    <h2>Auricular inalambrico P9</h2>
-    <p>Auricular Inalambrico inalá P9</p>
-    <p>Precio: $10,500</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    
-    <!-- Selección de color -->
-  <label for="color29">Color:</label>
-  <select id="color29">
-    <option value="Negro">Negro</option>
-    <option value="Blanco">Blanco</option>
-    <option value="Rosa">Rosa</option>
-    <option value="Celeste">Celeste</option>
-    <option value="Verde">Verde</option>
-  </select>
-    
-    <br>
-    Cantidad:
-    <input type="number" id="cantidad29" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico inalá P9', 10500, 'cantidad29', 100, 'color29')">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-  <!-- Carrusel de imágenes -->
-  <div class="carousel">
-    <img src="IMG/AH-806A-2.jpg" alt="Auricular infantil" class="carousel-image active" />
-    <img src="IMG/AH-806A.jpg" alt="Auricular infantil 2" class="carousel-image" />
-  </div>
-
-  <h2>Auricular infantil</h2>
-  <p>Auricular Inalambrico infantil AH-806A</p>
-  <p>Precio: $16,400</p>
-  <p>Stock disponible: <span class="stock">100</span></p>
-  
-  Cantidad:
-  <input type="number" id="cantidad30" min="1" max="5" value="1" style="width: 60px" />
-  <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico infantil AH-806A', 16400, 'cantidad30', 100)">Agregar al carrito</button>
-  <button class="ver-pedido-btn">🛒 Ver Pedido</button>
-</div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/TWS-BT03.jpg" alt="Auricular JBL" />
-    <h2>Auricular JBL</h2>
-    <p>Auricular Inalambrico JBL TWS-BT03</p>
-    <p>Precio: $22,800</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad31" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico JBL TWS-BT03', 22800, 'cantidad31', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/WAVE300.jpg" alt="Auricular JBL WAVE300" />
-    <h2>Auricular JBL</h2>
-    <p>Auricular Inalambrico JBL WAVE300</p>
-    <p>Precio: $18,800</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad32" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico JBL WAVE300', 18800, 'cantidad32', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/FT8312.jpg" alt="Auricular para PC y PS4" />
-    <h2>Auricular para PC y PS4</h2>
-    <p>Auricular Gaming Fijstec FT8312 </p>
-    <p>Precio: $14,870</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad33" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Gaming Fijstec FT8312', 14870, 'cantidad33', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/NG-8620.jpg" alt="Auricular para PC y PS4 Noga" />
-    <h2>Auricular para PC y PS4 Noga</h2>
-    <p>Auricular Gaming Noga NG-8620</p>
-    <p>Precio: $17,299</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad34" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Gaming Noga NG-8620', 17299, 'cantidad34', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/RISAM.jpg" alt="Auricular Samsung resorte" />
-    <h2>Auricular Samsung resorte</h2>
-    <p>Auricular Samung Resorte RISAM</p>
-    <p>Precio: $2,554</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad35" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular Samung Resorte RISAM', 2554, 'cantidad35', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-  <!-- Carrusel de imágenes -->
-  <div class="carousel">
-    <img src="IMG/SPORT45-2.jpg" alt="Auricular Sport 2" class="carousel-image active" />
-    <img src="IMG/SPORT45.jpg" alt="Auricular Sport" class="carousel-image" />
-  </div>
-
-  <h2>Auricular Sport</h2>
-  <p>Auricular Inalambrico SPORT45</p>
-  <p>Precio: $3,699</p>
-  <p>Stock disponible: <span class="stock">100</span></p>
-  
-  Cantidad:
-  <input type="number" id="cantidad36" min="1" max="5" value="1" style="width: 60px" />
-  <button class="btn" onclick="agregarAlCarrito('Auricular Inalambrico SPORT45', 3699, 'cantidad36', 100)">Agregar al carrito</button>
-  <button class="ver-pedido-btn">🛒 Ver Pedido</button>
-</div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/PROAIR.jpg" alt="Auricular Sport Samsung" />
-    <h2>Auricular Sport Samsung</h2>
-    <p>Auricular inalambrico Sport Samsung PROAIR</p>
-    <p>Precio: $13,300</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad37" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular inalambrico Sport Samsung PROAIR', 13300, 'cantidad37', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/TUNEFLEX.jpg" alt="Auricular JBL" />
-    <h2>Auricular JBL</h2>
-    <p>Auricular Inalambrico JBL TUNEFLEX</p>
-    <p>Precio: $16,800</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad38" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular inalambrico JBL TUNEFLEX', 16800, 'cantidad38', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Auriculares">
-    <img src="IMG/RISING.jpg" alt="Auricular PC y PS4 con adaptador de auricular GTC" />
-    <h2>Auricular PC y PS4 con adaptador de auricular GTC</h2>
-    <p>Auricular para Pc Gaming RISING</p>
-    <p>Precio: $18,000</p>
-    <p>Stock disponible: <span class="stock">100</span></p>
-    Cantidad:
-    <input type="number" id="cantidad39" min="1" max="5" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('Auricular para Pc Gaming RISING', 16800, 'cantidad39', 100)">Agregar al carrito</button>
-     <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
-  </div>
-
-  <div class="producto" data-stock="5" data-categoria="Balanzas">
-  <!-- Carrusel de imágenes -->
-  <div class="carousel">
-    <img src="IMG/CFN.jpg" alt="Balanza Comercial de 40Kg" class="carousel-image active" />
-    <img src="IMG/CFN-2.jpg" alt="Balanza Comercial de 40Kg" class="carousel-image" />
+  productos .... 
   </div>
 
   <h2>Balanza Comercial de 40Kg</h2>
@@ -626,7 +117,7 @@
   <button class="ver-pedido-btn">🛒 Ver Pedido</button>
   </div>
 
-  <div class="producto" data-stock="5" data-categoria="Balanzas">
+  <div class="producto" data-stock="5">
     <img src="IMG/MH-500.jpg" alt="Balanza de 500gr" />
     <h2>Balanza de 500gr</h2>
     <p>Balanza de 500gr MH-500</p>
@@ -638,7 +129,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5" data-categoria="Balanzas">
+  <div class="producto" data-stock="5">
     <img src="IMG/SV-10.jpg" alt="Balanza de cocina 10Kg" />
     <h2>Balanza de Cocina 10Kg</h2>
     <p>Balanza de Cocina 10Kg SV-10</p>
@@ -650,7 +141,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5" data-categoria="Balanzas">
+  <div class="producto" data-stock="5">
     <img src="IMG/AF24010.jpg" alt="Balanza personal con aplicación" />
     <h2>Balanzza personal con aplicación</h2>
     <p>Balanza personal con app hasta 180Kg AF24010</p>
@@ -662,7 +153,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5" data-categoria="Cargadores">
+  <div class="producto" data-stock="5">
     <img src="IMG/BATPACK.jpg" alt="Cargador portatil power" />
     <h2>Cargador portátil power</h2>
     <p>Cargador poratil power BATPACK</p>
@@ -674,7 +165,7 @@
      <button class="ver-pedido-btn">🛒 Ver Pedido</button> <!-- BOTÓN NUEVO -->
   </div>
 
-  <div class="producto" data-stock="5" data-categoria="Varios">
+  <div class="producto" data-stock="5">
     <img src="IMG/LEDMAGIC.jpg" alt="Bola Boliche" />
     <h2>Bola Boliche</h2>
     <p>Bola Boliche LEDMAGIC fiesta</p>
@@ -687,6 +178,8 @@
   </div>
   
 </div>
+
+  <div id="paginacion"></div>
 
 <div style="text-align: center; margin-top: 20px;">
   <button class="btn" onclick="mostrarPedido()">Ver pedido</button>
@@ -758,7 +251,7 @@
   onAuthStateChanged(auth, (user) => {
     if (user) {
       const uid = user.uid;
-      const userRef = ref(db, `onlineUsers/${uid}`);
+      const userRef = ref(db, onlineUsers/${uid});
       set(userRef, true);
       onDisconnect(userRef).remove();
 
@@ -770,13 +263,45 @@
       });
     }
   });
-  
+  <script>
+  const productosPorPagina = 30;
 
+  // 👉 Obtener el número de página desde la URL
+  function obtenerPaginaActual() {
+    const params = new URLSearchParams(window.location.search);
+    return parseInt(params.get('pagina')) || 1;
+  }
+
+  function mostrarProductos(pagina) {
+    const todosLosProductos = document.querySelectorAll('.producto');
+    const totalPaginas = Math.ceil(todosLosProductos.length / productosPorPagina);
+
+    todosLosProductos.forEach((producto, index) => {
+      producto.style.display = (index >= (pagina - 1) * productosPorPagina && index < pagina * productosPorPagina) ? 'block' : 'none';
+    });
+
+    const paginacionDiv = document.getElementById('paginacion');
+    paginacionDiv.innerHTML = '';
+
+    for (let i = 1; i <= totalPaginas; i++) {
+      const link = document.createElement('a');
+      link.innerText = i;
+      link.href = ?pagina=${i};
+      link.classList.add('boton-pagina');
+      if (i === pagina) link.classList.add('activo');
+      paginacionDiv.appendChild(link);
+    }
+  }
+
+  // 👉 Ejecutar al cargar la página
+  window.onload = function() {
+    const pagina = obtenerPaginaActual();
+    mostrarProductos(pagina);
+  };
+</script>
 
 
   
 <script src="js/app.js"></script>
 </body>
 </html>
-
-
