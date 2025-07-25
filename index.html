@@ -988,14 +988,17 @@
         let precioFormateado = "Consultar";
 
         if (prod.precio) {
-          const precioLimpio = parseFloat(
-            String(prod.precio)
-              .replace(/\./g, '')   // quitar separador de miles
-              .replace(',', '.')   // cambiar coma por punto decimal
+          // Eliminar el símbolo de $ y los espacios
+          const precioNumerico = parseFloat(
+            prod.precio
+              .replace('$', '')    // Quitar símbolo de pesos
+              .replace(/\s/g, '')  // Quitar espacios
+              .replace(/\./g, '')  // Quitar puntos si existieran (por seguridad)
+              .replace(/,/g, '')   // Quitar comas (son separadores de miles)
           );
 
-          if (!isNaN(precioLimpio) && precioLimpio > 0) {
-            const precioConAumento = Math.round(precioLimpio * 1.32);
+          if (!isNaN(precioNumerico) && precioNumerico > 0) {
+            const precioConAumento = Math.round(precioNumerico * 1.32);
             precioFormateado = formatoPeso.format(precioConAumento);
           }
         }
