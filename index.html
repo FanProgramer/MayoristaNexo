@@ -221,7 +221,7 @@
             <h2>${prod.rubro}</h2>
             <p>${prod.descripcion || prod.codigo}</p>
             <p><strong>Precio:</strong> ${precioFormateado}</p>
-            <p>Stock disponible!<span class="stock"> ${stock}</span></p>
+            <p>Stock disponible!<span class="stock oculto">${stock}</span></p>
             Cantidad:
             <input type="number" id="${idCantidad}" min="1" max="${stock}" value="1" style="width: 60px" />
             <button class="btn" onclick="agregarAlCarrito('${prod.descripcion || prod.codigo}', ${precioConAumento}, '${idCantidad}', ${stock})">Agregar al carrito</button>
