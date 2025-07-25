@@ -966,9 +966,7 @@
   
 </script>
 
-  
-
-<script>
+  <script>
   fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/master/productos.json")
     .then(res => res.json())
     .then(data => {
@@ -978,27 +976,25 @@
         style: 'currency',
         currency: 'ARS',
         minimumFractionDigits: 0,
-        maximumFractionDigits: 0,
-        useGrouping: true
+        maximumFractionDigits: 0
       });
 
       data.forEach((prod, index) => {
         const rutaImagen = `img/${prod.codigo}.jpg`;
-        const stock = prod.stock || 10; // si no tiene stock, se asume 10
+        const stock = prod.stock || 10;
         const cantidadId = `cantidad_${index}`;
 
         let precioFormateado = "Consultar";
         let precioFinal = 0;
 
-        if (prod.precio) {
-          const precioLimpio = parseFloat(
-            String(prod.precio)
-              .replace(/\./g, '')
-              .replace(',', '.')
-          );
+        if (prod.precio && prod.precio !== "0") {
+          let precioLimpio = String(prod.precio)
+            .replace(/\./g, "")
+            .replace(",", "."); // Para manejar precios tipo 4.080 o 4080,00
 
-          if (!isNaN(precioLimpio) && precioLimpio > 0) {
-            precioFinal = Math.round(precioLimpio * 1.32);
+          let precioNum = parseFloat(precioLimpio);
+          if (!isNaN(precioNum)) {
+            precioFinal = Math.round(precioNum * 1.32);
             precioFormateado = formatoPeso.format(precioFinal);
           }
         }
