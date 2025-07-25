@@ -967,34 +967,46 @@
 </script>
 
   
-<script>  
-  fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/master/productos.json")
-  .then(res => {
-    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-    return res.json();
-  })
-  .then(data => {
-    const contenedor = document.getElementById("productos");
-    data.forEach(prod => {
-      const rutaImagen = `img/${prod.codigo}.jpg`;
 
-      // Limpia el precio si viene con $ u otros caracteres
-      const precioLimpio = parseFloat(prod.precio.replace(/[^0-9.,]/g, '').replace(',', '.'));
-      const precioConAumento = (precioLimpio * 1.32).toFixed(2);
 
-      contenedor.innerHTML += `
-        <div class="producto">
-          <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'"/>
-          <p><strong>Rubro:</strong> ${prod.rubro}</p>
-          <p><strong>Código:</strong> ${prod.codigo}</p>
-          <p><strong>Precio:</strong> $${precioConAumento}</p>
-        </div>
-      `;
+<script>
+  fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/main/productos.json")
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      return res.json();
+    })
+    .then(data => {
+      const contenedor = document.getElementById("productos");
+      
+      // Formateador de pesos argentinos sin decimales
+      const formatoPeso = new Intl.NumberFormat('es-AR', {
+        style: 'currency',
+        currency: 'ARS',
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+      });
+
+      data.forEach(prod => {
+        const rutaImagen = `img/${prod.codigo}.jpg`;
+
+        // Limpieza del precio
+        const precioLimpio = parseFloat(prod.precio.replace(/[^0-9.,]/g, '').replace(',', '.')) || 0;
+        const precioConAumento = precioLimpio * 1.32;
+        const precioFormateado = formatoPeso.format(precioConAumento);
+
+        contenedor.innerHTML += `
+          <div class="producto">
+            <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'"/>
+            <p><strong>Rubro:</strong> ${prod.rubro}</p>
+            <p><strong>Código:</strong> ${prod.codigo}</p>
+            <p><strong>Precio:</strong> ${precioFormateado}</p>
+          </div>
+        `;
+      });
+    })
+    .catch(err => {
+      console.error("Error al cargar productos:", err);
     });
-  })
-  .catch(err => {
-    console.error("Error al cargar productos:", err);
-  });  
 </script>
   
 <script src="js/app.js"></script>
