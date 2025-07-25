@@ -999,21 +999,22 @@
           }
         }
 
-        const idCantidad = `cantidad_${prod.codigo}`; // ID único
+        const stock = prod.stock || 100; // por si no viene stock, asumimos 5
+        const idCantidad = `cantidad_${index}`; // para que el ID sea único
 
         contenedor.innerHTML += `
-  <div class="producto" data-stock="100">
-    <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'" />
-    <p><strong>Rubro:</strong> ${prod.rubro}</p>
-    <p><strong>Código:</strong> ${prod.codigo}</p>
-    <p><strong>Precio:</strong> ${precioFormateado}</p>
-    <p>Stock disponible</p>
-    Cantidad:
-    <input type="number" id="${idCantidad}" min="1" max="100" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('${prod.descripcion}', ${precioConAumento}, '${idCantidad}', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn" onclick="verPedido()">🛒 Ver Pedido</button>
-  </div>
-`;
+          <div class="producto" data-stock="${stock}">
+            <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'" />
+            <h2>${prod.rubro}</h2>
+            <p>${prod.descripcion || prod.codigo}</p>
+            <p><strong>Precio:</strong> ${precioFormateado}</p>
+            <p>Stock disponible!<span class="stock"> ${stock}</span></p>
+            Cantidad:
+            <input type="number" id="${idCantidad}" min="1" max="${stock}" value="1" style="width: 60px" />
+            <button class="btn" onclick="agregarAlCarrito('${prod.descripcion || prod.codigo}', ${precioConAumento}, '${idCantidad}', ${stock})">Agregar al carrito</button>
+            <button class="ver-pedido-btn">🛒 Ver Pedido</button>
+          </div>
+        `;
       });
     })
     .catch(err => console.error("Error al cargar productos:", err));
