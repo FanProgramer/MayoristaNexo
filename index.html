@@ -968,34 +968,33 @@
 
   
 <script>  
-  fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/master/productos.json")  
-  .then(res => {  
-    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);  
-    return res.json();  
-  })  
-  .then(data => {  
-    const contenedor = document.getElementById("productos");  
-    data.forEach(prod => {  
-      // Suponiendo que todas las imágenes son .jpg  
-      const rutaImagen = `img/${prod.codigo}.jpg`;  
-  
-      contenedor.innerHTML += `  
-        <div class="producto">  
-          <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'"/>  
-          <p><strong>Rubro:</strong> ${prod.rubro}</p>  
-          <p><strong>Código:</strong> ${prod.codigo}</p>  
-          <p><strong>Precio:</strong> ${prod.precio}</p>  
-        </div>  
-      `;  
-    });  
-  })  
-  .catch(err => {  
-    console.error("Error al cargar productos:", err);  
+  fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/master/productos.json")
+  .then(res => {
+    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+    return res.json();
+  })
+  .then(data => {
+    const contenedor = document.getElementById("productos");
+    data.forEach(prod => {
+      const rutaImagen = `img/${prod.codigo}.jpg`;
+
+      // Calculamos el precio con el 32% de aumento
+      const precioConAumento = (parseFloat(prod.precio) * 1.32).toFixed(2);
+
+      contenedor.innerHTML += `
+        <div class="producto">
+          <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'"/>
+          <p><strong>Rubro:</strong> ${prod.rubro}</p>
+          <p><strong>Código:</strong> ${prod.codigo}</p>
+          <p><strong>Precio:</strong> $${precioConAumento}</p>
+        </div>
+      `;
+    });
+  })
+  .catch(err => {
+    console.error("Error al cargar productos:", err);
   });  
 </script>
-
-  
-
   
 <script src="js/app.js"></script>
 </body>
