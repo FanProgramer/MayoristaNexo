@@ -977,10 +977,7 @@
     const contenedor = document.getElementById("productos");
     data.forEach(prod => {
       // Suponiendo que todas las imágenes son .jpg
-      const rutaImagen = `img/${prod.codigo}.jpg`;
-
-      // Calculamos el precio con el 32% de aumento
-      const precioConAumento = (parseFloat(prod.precio) * 1.32).toFixed(2);
+      const rutaImagen = `img/${prod.codigo}.jpg`; 
 
       contenedor.innerHTML += `
         <div class="producto">
