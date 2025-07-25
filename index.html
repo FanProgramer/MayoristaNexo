@@ -990,7 +990,7 @@
         prod.precio
           .replace(/\./g, '')     // quitar puntos de miles
           .replace(',', '.')      // convertir coma decimal en punto
-          .replace(/[^0-9.]/g, '') // limpiar lo demás
+          
       ) || 0;
 
       const precioConAumento = Math.round(precioLimpio * 1.32);
