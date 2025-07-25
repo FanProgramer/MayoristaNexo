@@ -185,6 +185,7 @@
     .then(res => res.json())
     .then(data => {
       const contenedor = document.getElementById("productos");
+      const fragment = document.createDocumentFragment(); // ⚡ Fragmento temporal
 
       const formatoPeso = new Intl.NumberFormat('es-AR', {
         style: 'currency',
@@ -194,6 +195,9 @@
       });
 
       data.forEach((prod, index) => {
+        const div = document.createElement("div");
+        div.className = "producto";
+
         const rutaImagen = `img/${prod.codigo}.jpg`;
         let precioFormateado = "Consultar";
         let precioConAumento = 0;
@@ -212,23 +216,25 @@
           }
         }
 
-        const stock = prod.stock || 100; // por si no viene stock, asumimos 5
-        const idCantidad = `cantidad_${index}`; // para que el ID sea único
+        const stock = prod.stock || 100;
+        const idCantidad = `cantidad_${index}`;
 
-        contenedor.innerHTML += `
-          <div class="producto" data-stock="${stock}">
-            <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'" />
-            <h2>${prod.rubro}</h2>
-            <p>${prod.descripcion || prod.codigo}</p>
-            <p><strong>Precio:</strong> ${precioFormateado}</p>
-            <p>Stock disponible!<span class="stock"> ${stock}</span></p>
-            Cantidad:
-            <input type="number" id="${idCantidad}" min="1" max="${stock}" value="1" style="width: 60px" />
-            <button class="btn" onclick="agregarAlCarrito('${prod.descripcion || prod.codigo}', ${precioConAumento}, '${idCantidad}', ${stock})">Agregar al carrito</button>
-            <button class="ver-pedido-btn">🛒 Ver Pedido</button>
-          </div>
+        div.innerHTML = `
+          <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'" />
+          <h2>${prod.rubro}</h2>
+          <p>${prod.descripcion || prod.codigo}</p>
+          <p><strong>Precio:</strong> ${precioFormateado}</p>
+          <p>Stock disponible<span class="stock oculto">${stock}</span></p>
+          Cantidad:
+          <input type="number" id="${idCantidad}" min="1" max="${stock}" value="1" style="width: 60px" />
+          <button class="btn" onclick="agregarAlCarrito('${prod.descripcion || prod.codigo}', ${precioConAumento}, '${idCantidad}', ${stock})">Agregar al carrito</button>
+          <button class="ver-pedido-btn">🛒 Ver Pedido</button>
         `;
+
+        fragment.appendChild(div); // ⏱️ Arma todo en memoria
       });
+
+      contenedor.appendChild(fragment); // ⚡ Inserta todo de una sola vez
     })
     .catch(err => console.error("Error al cargar productos:", err));
 </script>
