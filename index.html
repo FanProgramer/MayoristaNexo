@@ -979,7 +979,8 @@
       style: 'currency',
       currency: 'ARS',
       minimumFractionDigits: 0,
-      maximumFractionDigits: 0
+      maximumFractionDigits: 0,
+      useGrouping: true // muestra separador de miles
     });
 
     data.forEach(prod => {
@@ -988,11 +989,11 @@
       const precioLimpio = parseFloat(
         prod.precio
           .replace(/\./g, '')     // quitar puntos de miles
-          .replace(',', '.')      // reemplazar coma decimal por punto
-          .replace(/[^0-9.]/g, '') // limpiar cualquier otro símbolo
+          .replace(',', '.')      // convertir coma decimal en punto
+          .replace(/[^0-9.]/g, '') // limpiar lo demás
       ) || 0;
 
-      const precioConAumento = precioLimpio * 1.32;
+      const precioConAumento = Math.round(precioLimpio * 1.32);
       const precioFormateado = formatoPeso.format(precioConAumento);
 
       contenedor.innerHTML += `
