@@ -966,7 +966,8 @@
   
 </script>
 
-  <script>
+  
+<script>
   fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/master/productos.json")
     .then(res => res.json())
     .then(data => {
@@ -981,36 +982,36 @@
 
       data.forEach((prod, index) => {
         const rutaImagen = `img/${prod.codigo}.jpg`;
-        const stock = prod.stock || 10;
-        const cantidadId = `cantidad_${index}`;
-
         let precioFormateado = "Consultar";
-        let precioFinal = 0;
+        let precioConAumento = 0;
 
-        if (prod.precio && prod.precio !== "0") {
-          let precioLimpio = String(prod.precio)
-            .replace(/\./g, "")
-            .replace(",", "."); // Para manejar precios tipo 4.080 o 4080,00
+        if (prod.precio) {
+          const precioLimpio = parseFloat(
+            String(prod.precio)
+              .replace('$', '')
+              .replace(/\s/g, '')
+              .replace(/,/g, '')
+          );
 
-          let precioNum = parseFloat(precioLimpio);
-          if (!isNaN(precioNum)) {
-            precioFinal = Math.round(precioNum * 1.32);
-            precioFormateado = formatoPeso.format(precioFinal);
+          if (!isNaN(precioLimpio) && precioLimpio > 0) {
+            precioConAumento = Math.round(precioLimpio * 1.32);
+            precioFormateado = formatoPeso.format(precioConAumento);
           }
         }
 
+        const stock = prod.stock || 5; // por si no viene stock, asumimos 5
+        const idCantidad = `cantidad_${index}`; // para que el ID sea único
+
         contenedor.innerHTML += `
           <div class="producto" data-stock="${stock}">
-            <img src="${rutaImagen}" alt="${prod.rubro}" onerror="this.src='img/default.jpg'" />
+            <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'" />
             <h2>${prod.rubro}</h2>
             <p>${prod.descripcion || prod.codigo}</p>
             <p><strong>Precio:</strong> ${precioFormateado}</p>
-            <p>Stock disponible! <span class="stock">${stock}</span></p>
+            <p>Stock disponible!<span class="stock"> ${stock}</span></p>
             Cantidad:
-            <input type="number" id="${cantidadId}" min="1" max="${stock}" value="1" style="width: 60px" />
-            <button class="btn" onclick="agregarAlCarrito('${prod.descripcion || prod.codigo}', ${precioFinal}, '${cantidadId}', ${stock})">
-              Agregar al carrito
-            </button>
+            <input type="number" id="${idCantidad}" min="1" max="${stock}" value="1" style="width: 60px" />
+            <button class="btn" onclick="agregarAlCarrito('${prod.descripcion || prod.codigo}', ${precioConAumento}, '${idCantidad}', ${stock})">Agregar al carrito</button>
             <button class="ver-pedido-btn">🛒 Ver Pedido</button>
           </div>
         `;
