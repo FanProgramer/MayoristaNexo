@@ -978,34 +978,44 @@
         style: 'currency',
         currency: 'ARS',
         minimumFractionDigits: 0,
-        maximumFractionDigits: 0
+        maximumFractionDigits: 0,
+        useGrouping: true
       });
 
-      data.forEach(prod => {
+      data.forEach((prod, index) => {
         const rutaImagen = `img/${prod.codigo}.jpg`;
+        const stock = prod.stock || 10; // si no tiene stock, se asume 10
+        const cantidadId = `cantidad_${index}`;
+
         let precioFormateado = "Consultar";
+        let precioFinal = 0;
 
         if (prod.precio) {
-          // Limpiar el precio: eliminar $ y separadores de miles (coma)
           const precioLimpio = parseFloat(
             String(prod.precio)
-              .replace('$', '')        // quitar símbolo $
-              .replace(/\s/g, '')      // quitar espacios
-              .replace(/,/g, '')       // quitar separadores de miles
+              .replace(/\./g, '')
+              .replace(',', '.')
           );
 
           if (!isNaN(precioLimpio) && precioLimpio > 0) {
-            const precioConAumento = Math.round(precioLimpio * 1.32);
-            precioFormateado = formatoPeso.format(precioConAumento);
+            precioFinal = Math.round(precioLimpio * 1.32);
+            precioFormateado = formatoPeso.format(precioFinal);
           }
         }
 
         contenedor.innerHTML += `
-          <div class="producto">
-            <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'" />
-            <p><strong>Rubro:</strong> ${prod.rubro}</p>
-            <p><strong>Código:</strong> ${prod.codigo}</p>
+          <div class="producto" data-stock="${stock}">
+            <img src="${rutaImagen}" alt="${prod.rubro}" onerror="this.src='img/default.jpg'" />
+            <h2>${prod.rubro}</h2>
+            <p>${prod.descripcion || prod.codigo}</p>
             <p><strong>Precio:</strong> ${precioFormateado}</p>
+            <p>Stock disponible! <span class="stock">${stock}</span></p>
+            Cantidad:
+            <input type="number" id="${cantidadId}" min="1" max="${stock}" value="1" style="width: 60px" />
+            <button class="btn" onclick="agregarAlCarrito('${prod.descripcion || prod.codigo}', ${precioFinal}, '${cantidadId}', ${stock})">
+              Agregar al carrito
+            </button>
+            <button class="ver-pedido-btn">🛒 Ver Pedido</button>
           </div>
         `;
       });
