@@ -978,8 +978,9 @@
     data.forEach(prod => {
       const rutaImagen = `img/${prod.codigo}.jpg`;
 
-      // Calculamos el precio con el 32% de aumento
-      const precioConAumento = (parseFloat(prod.precio) * 1.32).toFixed(2);
+      // Limpia el precio si viene con $ u otros caracteres
+      const precioLimpio = parseFloat(prod.precio.replace(/[^0-9.,]/g, '').replace(',', '.'));
+      const precioConAumento = (precioLimpio * 1.32).toFixed(2);
 
       contenedor.innerHTML += `
         <div class="producto">
