@@ -299,3 +299,6 @@ header img {
   text-align: center;
 }
 
+.oculto {
+  display: none;
+}
