@@ -979,6 +979,9 @@
       // Suponiendo que todas las imágenes son .jpg
       const rutaImagen = `img/${prod.codigo}.jpg`;
 
+      // Calculamos el precio con el 32% de aumento
+      const precioConAumento = (parseFloat(prod.precio) * 1.32).toFixed(2);
+
       contenedor.innerHTML += `
         <div class="producto">
           <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'"/>
