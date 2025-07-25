@@ -999,8 +999,7 @@
           }
         }
 
-        const stock = prod.stock || 5; // por si no viene stock, asumimos 5
-        const idCantidad = `cantidad_${index}`; // para que el ID sea único
+        const idCantidad = `cantidad_${prod.codigo}`; // ID único
 
         contenedor.innerHTML += `
   <div class="producto" data-stock="100">
@@ -1010,9 +1009,9 @@
     <p><strong>Precio:</strong> ${precioFormateado}</p>
     <p>Stock disponible</p>
     Cantidad:
-    <input type="number" id="cantidad_${prod.codigo}" min="1" max="100" value="1" style="width: 60px" />
-    <button class="btn" onclick="agregarAlCarrito('${prod.descripcion}', ${precioConAumento}, 'cantidad_${prod.codigo}', 100)">Agregar al carrito</button>
-    <button class="ver-pedido-btn">🛒 Ver Pedido</button>
+    <input type="number" id="${idCantidad}" min="1" max="100" value="1" style="width: 60px" />
+    <button class="btn" onclick="agregarAlCarrito('${prod.descripcion}', ${precioConAumento}, '${idCantidad}', 100)">Agregar al carrito</button>
+    <button class="ver-pedido-btn" onclick="verPedido()">🛒 Ver Pedido</button>
   </div>
 `;
       });
