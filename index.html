@@ -968,45 +968,45 @@
 
   
 
-
 <script>
   fetch("https://raw.githubusercontent.com/FanProgramer/MayoristaNexo/master/productos.json")
-  .then(res => res.json())
-  .then(data => {
-    const contenedor = document.getElementById("productos");
+    .then(res => res.json())
+    .then(data => {
+      const contenedor = document.getElementById("productos");
 
-    const formatoPeso = new Intl.NumberFormat('es-AR', {
-      style: 'currency',
-      currency: 'ARS',
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-      useGrouping: true // muestra separador de miles
-    });
+      const formatoPeso = new Intl.NumberFormat('es-AR', {
+        style: 'currency',
+        currency: 'ARS',
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0,
+        useGrouping: true
+      });
 
-    data.forEach(prod => {
-      const rutaImagen = `img/${prod.codigo}.jpg`;
+      data.forEach(prod => {
+        const rutaImagen = `img/${prod.codigo}.jpg`;
 
-      const precioLimpio = parseFloat(
-        prod.precio
-          .replace(/\./g, '')     // quitar puntos de miles
-          .replace(',', '.')      // convertir coma decimal en punto
-          
-      ) || 0;
+        // Limpiar y convertir precio
+        const precioLimpio = parseFloat(
+          String(prod.precio)
+            .replace(/\./g, '')   // quitar puntos de miles
+            .replace(',', '.')   // reemplazar coma decimal por punto
+        ) || 0;
 
-      const precioConAumento = Math.round(precioLimpio * 1.32);
-      const precioFormateado = formatoPeso.format(precioConAumento);
+        // Aplicar aumento del 32%
+        const precioConAumento = Math.round(precioLimpio * 1.32);
+        const precioFormateado = formatoPeso.format(precioConAumento);
 
-      contenedor.innerHTML += `
-        <div class="producto">
-          <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'"/>
-          <p><strong>Rubro:</strong> ${prod.rubro}</p>
-          <p><strong>Código:</strong> ${prod.codigo}</p>
-          <p><strong>Precio:</strong> ${precioFormateado}</p>
-        </div>
-      `;
-    });
-  })
-  .catch(err => console.error("Error al cargar productos:", err));
+        contenedor.innerHTML += `
+          <div class="producto">
+            <img src="${rutaImagen}" alt="${prod.codigo}" width="200" onerror="this.src='img/default.jpg'" />
+            <p><strong>Rubro:</strong> ${prod.rubro}</p>
+            <p><strong>Código:</strong> ${prod.codigo}</p>
+            <p><strong>Precio:</strong> ${precioFormateado}</p>
+          </div>
+        `;
+      });
+    })
+    .catch(err => console.error("Error al cargar productos:", err));
 </script>
   
 <script src="js/app.js"></script>
