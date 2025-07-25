@@ -985,16 +985,20 @@
       data.forEach(prod => {
         const rutaImagen = `img/${prod.codigo}.jpg`;
 
-        // Limpiar y convertir precio
-        const precioLimpio = parseFloat(
-          String(prod.precio)
-            .replace(/\./g, '')   // quitar puntos de miles
-            .replace(',', '.')   // reemplazar coma decimal por punto
-        ) || 0;
+        let precioFormateado = "Consultar";
 
-        // Aplicar aumento del 32%
-        const precioConAumento = Math.round(precioLimpio * 1.32);
-        const precioFormateado = formatoPeso.format(precioConAumento);
+        if (prod.precio) {
+          const precioLimpio = parseFloat(
+            String(prod.precio)
+              .replace(/\./g, '')   // quitar separador de miles
+              .replace(',', '.')   // cambiar coma por punto decimal
+          );
+
+          if (!isNaN(precioLimpio) && precioLimpio > 0) {
+            const precioConAumento = Math.round(precioLimpio * 1.32);
+            precioFormateado = formatoPeso.format(precioConAumento);
+          }
+        }
 
         contenedor.innerHTML += `
           <div class="producto">
